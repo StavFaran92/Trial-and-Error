@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb4837106a44466aea61fef9b346fe, type: 3}
-  m_Name: References
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: MurderInvestigation_ManagerPackage
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: da42dfcc7eb46f84ca1274ccfc1f33cc, type: 2}
   sceneManager: {fileID: 11400000, guid: 4b817e9d2dd13df4f89edbe08163e3ba, type: 2}
