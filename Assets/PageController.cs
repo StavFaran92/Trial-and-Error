@@ -1,12 +1,14 @@
 ﻿using DG.Tweening;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PageController : MonoBehaviour
 {
+    private static string TAG = "PageController";
 
+    private const float mPagePeakValueY = 0.8f;
+    private const float mPageStartValueY = 0.74f;
+    private const float mPageTweenVerDuration = .3f;
+    private const float mPageTweenHorDuration = .7f;
     [SerializeField]
     private Transform[] mPages;
 
@@ -16,6 +18,8 @@ public class PageController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.unityLogger.Log(TAG, "Start()");
+
         DOTween.Init();
         mNumOfPages = mPages.Length;
     }
@@ -27,8 +31,6 @@ public class PageController : MonoBehaviour
         {
 
             SwipeToNextPage();
-
-            
         }
 
         if (Input.GetKeyUp(KeyCode.LeftArrow))
@@ -42,11 +44,12 @@ public class PageController : MonoBehaviour
 
     private void SwipeToNextPage()
     {
+        Debug.unityLogger.Log(TAG, "SwipeToNextPage()");
+
         if (mCurrentPage < mNumOfPages - 1)
         {
             FocusOnPage();
-
-            mPages[mCurrentPage].DOMoveX(-0.142f, 1);
+            SwipePageAnimation(mCurrentPage, -0.142f);
 
             mCurrentPage++;
 
@@ -56,11 +59,13 @@ public class PageController : MonoBehaviour
 
     private void SwipeToPreviousPage()
     {
+        Debug.unityLogger.Log(TAG, "SwipeToPreviousPage()");
+
         if (mCurrentPage > 0)
         {
             mCurrentPage--;
             FocusOnPage();
-            mPages[mCurrentPage].DOMoveX(0.1429f, 1);
+            SwipePageAnimation(mCurrentPage, 0.1429f);
 
 
             Debug.Log("Current page is: " + mCurrentPage);
@@ -69,6 +74,8 @@ public class PageController : MonoBehaviour
 
     private void FocusOnPage()
     {
+        Debug.unityLogger.Log(TAG, "FocusOnPage()");
+
         if (mCurrentPage > 0)
         {
             mPages[mCurrentPage - 1].GetComponentInChildren<Canvas>().sortingOrder = 1;
@@ -86,5 +93,15 @@ public class PageController : MonoBehaviour
         }
 
         mPages[mCurrentPage].GetComponentInChildren<Canvas>().sortingOrder = 2;
+    }
+
+    private void SwipePageAnimation(int pageIndex, float endValueX)
+    {
+        Debug.unityLogger.Log(TAG, "SwipePageAnimation()");
+
+        mPages[pageIndex].DOMoveY(mPagePeakValueY, mPageTweenVerDuration)
+            .OnComplete(()=>mPages[pageIndex].DOMoveX(endValueX, mPageTweenHorDuration)
+            .OnComplete(() => mPages[pageIndex].DOMoveY(mPageStartValueY, mPageTweenVerDuration)));
+        ;
     }
 }
