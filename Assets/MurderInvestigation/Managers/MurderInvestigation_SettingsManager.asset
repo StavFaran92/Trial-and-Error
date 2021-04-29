@@ -166,7 +166,7 @@ MonoBehaviour:
   loadingSceneIs: 0
   loadingSceneName: 
   loadingScene: 0
-  useAsyncLoading: 0
+  useAsyncLoading: 1
   loadingDelay: 0
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
