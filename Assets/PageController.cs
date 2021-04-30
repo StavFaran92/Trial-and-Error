@@ -1,4 +1,7 @@
-﻿using DG.Tweening;
+﻿using AC;
+using DG.Tweening;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PageController : MonoBehaviour
@@ -12,6 +15,9 @@ public class PageController : MonoBehaviour
     [SerializeField]
     private Transform[] mPages;
 
+
+    private SortedSet<int> mDisplayedPages;
+
     private int mCurrentPage = 0;
     private int mNumOfPages;
 
@@ -19,6 +25,7 @@ public class PageController : MonoBehaviour
     void Start()
     {
         Debug.unityLogger.Log(TAG, "Start()");
+        
 
         DOTween.Init();
         mNumOfPages = mPages.Length;
@@ -46,20 +53,25 @@ public class PageController : MonoBehaviour
     {
         Debug.unityLogger.Log(TAG, "SwipeToNextPage()");
 
+
         if (mCurrentPage < mNumOfPages - 1)
         {
             FocusOnPage();
+            
             SwipePageAnimation(mCurrentPage, -0.142f);
 
             mCurrentPage++;
 
             Debug.Log("Current page is: " + mCurrentPage);
         }
+
+        SetPagesHotspot();
     }
+
 
     private void SwipeToPreviousPage()
     {
-        Debug.unityLogger.Log(TAG, "SwipeToPreviousPage()");
+        Debug.unityLogger.Log(TAG, "SwipeToPreviousPage()");        
 
         if (mCurrentPage > 0)
         {
@@ -69,6 +81,51 @@ public class PageController : MonoBehaviour
 
 
             Debug.Log("Current page is: " + mCurrentPage);
+        }
+
+        SetPagesHotspot();
+    }
+
+    private void SetPagesHotspot()
+    {
+        //reset all
+        for(int i=0; i<mPages.Length; i++)
+        {
+            SetHotspotIfNotAbsent(i, false);
+        }
+
+        //set necessary ones
+        SetHotspotIfNotAbsent(mCurrentPage, true);
+
+        if (mCurrentPage > 0)
+            SetHotspotIfNotAbsent(mCurrentPage - 1, true);
+
+
+    }
+
+    /// <summary>
+    /// This is a bit wastefull but since it not supposed to be called many times We can handle it
+    /// </summary>
+    /// <param name="pageIndex"></param>
+    /// <param name="value"></param>
+    private void SetHotspotIfNotAbsent(int pageIndex, bool value)
+    {
+        //I would have preffered to use the Hotspot component, yet AC's manual activation of hotspot is a bit problematic 
+        //So this is a small workaround.
+        var hotspot = mPages[pageIndex].GetComponentInChildren<Hotspot>(true);
+         if (hotspot != null)
+        {
+            var gameobject = hotspot.gameObject;
+            Debug.Log("hotspot "+ pageIndex+" set to: " + value);
+
+            if (value)
+            {
+                gameobject.SetActive(true);
+            }
+            else
+            {
+                gameobject.SetActive(false);
+            }
         }
     }
 
