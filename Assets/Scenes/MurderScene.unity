@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1086,11 +1086,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7062313874366494050, guid: 189ebd68102e6da4d8c983861734b495,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5486dd7702242404bb7b53e98de83e06, type: 2}
+    - target: {fileID: -1832104348257702804, guid: 189ebd68102e6da4d8c983861734b495,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5486dd7702242404bb7b53e98de83e06, type: 2}
+    - target: {fileID: -1084764944247725341, guid: 189ebd68102e6da4d8c983861734b495,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5486dd7702242404bb7b53e98de83e06, type: 2}
     - target: {fileID: 919132149155446097, guid: 189ebd68102e6da4d8c983861734b495,
         type: 3}
       propertyPath: m_Name
       value: house_clemente
       objectReference: {fileID: 0}
+    - target: {fileID: 1919898894126547212, guid: 189ebd68102e6da4d8c983861734b495,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5486dd7702242404bb7b53e98de83e06, type: 2}
+    - target: {fileID: 3569664748435255086, guid: 189ebd68102e6da4d8c983861734b495,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5486dd7702242404bb7b53e98de83e06, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 189ebd68102e6da4d8c983861734b495, type: 3}
 --- !u!1 &1894020567
