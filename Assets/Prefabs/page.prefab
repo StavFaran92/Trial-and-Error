@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 8676434141249975258}
   - component: {fileID: 8676434141249975253}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: Text Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8676434141613177152}
   m_Layer: 0
-  m_Name: page 0
+  m_Name: page
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 8676434142131723994}
   - component: {fileID: 8676434142131723989}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text Headline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
