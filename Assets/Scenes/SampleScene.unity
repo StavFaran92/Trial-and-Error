@@ -1377,7 +1377,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 748
+    y: 784
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1433,6 +1433,89 @@ Transform:
   m_Father: {fileID: 126203344}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222527822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 678752195}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 236
+    width: 300
+    height: 248
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5317856146704592097}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 11400000, guid: a55f7d722e2b3e14dbb8a4da41fd133b, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters:
+  - label: Camera on enter
+    description: 
+    ID: 0
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 2783456364693411816}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Camera on exit
+    description: 
+    ID: 1
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 3119251084904193873}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffff
+  setParameters: 0
+  runMode: 1
+  hasUpgradedAgain: 0
 --- !u!1 &228219260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2726,8 +2809,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 14
+    y: 292
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2839,7 +2922,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 714
-    y: 1268
+    y: 1304
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3182,7 +3265,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 364
-    y: 1018
+    y: 1054
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3271,8 +3354,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 14
+    y: 454
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3328,6 +3411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 728119627}
+  - {fileID: 1503066289}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3702,7 +3786,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 478
+    y: 514
     width: 300
     height: 240
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3860,7 +3944,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
+  - resultAction: 1
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -3870,8 +3954,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 14
+    y: 940
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4220,7 +4304,7 @@ Transform:
   m_Father: {fileID: 950473933}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &784528644
+--- !u!114 &785718678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4229,7 +4313,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -4243,9 +4327,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 550301479}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4253,45 +4337,56 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 248
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
-  parentActionListInEditor: {fileID: 956372628041248171}
+  parentActionListInEditor: {fileID: 3057887798263934527}
+  listSource: 1
+  actionList: {fileID: 0}
   constantID: 0
   parameterID: -1
-  linkedCamera: {fileID: 7240259339236045586}
-  transitionTime: 3
-  transitionTimeParameterID: -1
-  timeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  moveMethod: 1
-  returnToLast: 0
-  retainPreviousSpeed: 0
+  invActionList: {fileID: 11400000, guid: a55f7d722e2b3e14dbb8a4da41fd133b, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters:
+  - label: Camera on enter
+    description: 
+    ID: 0
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 7722354220694457668}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Camera on exit
+    description: 
+    ID: 1
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 3119251084904193873}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffff
+  setParameters: 0
+  runMode: 1
+  hasUpgradedAgain: 0
 --- !u!114 &792225068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4437,10 +4532,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 292
     width: 300
-    height: 60
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 956372628041248171}
@@ -5326,7 +5421,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
+  - resultAction: 1
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -5336,10 +5431,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 454
     width: 300
-    height: 60
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 956372628041248171}
@@ -5574,7 +5669,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 714
-    y: 1018
+    y: 1054
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6082,7 +6177,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 7
-    skipActionActual: {fileID: 1656615844}
+    skipActionActual: {fileID: 222527822}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6254,8 +6349,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 14
+    y: 778
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6470,8 +6565,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 14
+    y: 616
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6557,7 +6652,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 364
-    y: 748
+    y: 784
     width: 300
     height: 240
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6597,6 +6692,76 @@ MonoBehaviour:
   compareVariablesConstantID: 0
   placeholderType: 1
   placeholderPopUpLabelDataID: 0
+--- !u!114 &1503066289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 623931686}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 0}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters:
+  - label: Nearby marker
+    description: 
+    ID: 0
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffff
+  setParameters: 0
+  runMode: 1
+  hasUpgradedAgain: 0
 --- !u!114 &1520501676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6700,78 +6865,6 @@ MonoBehaviour:
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
   forceReload: 0
---- !u!114 &1585417298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 192
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3057887798263934527}
-  constantID: 0
-  parameterID: -1
-  linkedCamera: {fileID: 7722354220700481700}
-  transitionTime: 3
-  transitionTimeParameterID: -1
-  timeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  moveMethod: 1
-  returnToLast: 0
-  retainPreviousSpeed: 0
 --- !u!1 &1587053291
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,78 +7329,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1656615844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: 678752195}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 236
-    width: 300
-    height: 212
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 5317856146704592097}
-  constantID: 0
-  parameterID: -1
-  linkedCamera: {fileID: 2783456364703621640}
-  transitionTime: 3
-  transitionTimeParameterID: -1
-  timeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  moveMethod: 1
-  returnToLast: 0
-  retainPreviousSpeed: 0
 --- !u!1 &1667753311
 GameObject:
   m_ObjectHideFlags: 0
@@ -8078,6 +8099,89 @@ Transform:
   m_Father: {fileID: 145404474}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1863990261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 826105936}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 248
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 956372628041248171}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 11400000, guid: a55f7d722e2b3e14dbb8a4da41fd133b, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters:
+  - label: Camera on enter
+    description: 
+    ID: 0
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 7240259339228940018}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Camera on exit
+    description: 
+    ID: 1
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 3119251084904193873}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffff
+  setParameters: 0
+  runMode: 1
+  hasUpgradedAgain: 0
 --- !u!1 &1872458542
 GameObject:
   m_ObjectHideFlags: 0
@@ -8900,7 +9004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 784528644}
+  - {fileID: 1863990261}
   - {fileID: 826105936}
   - {fileID: 1120439789}
   isSkippable: 1
@@ -9397,6 +9501,7 @@ GameObject:
   - component: {fileID: 2783456364693703624}
   - component: {fileID: 2783456364692166088}
   - component: {fileID: 2783456364703621640}
+  - component: {fileID: 2783456364693411817}
   m_Layer: 2
   m_Name: folder camera
   m_TagString: Untagged
@@ -9404,6 +9509,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2783456364693411817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783456364693411816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 204720
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!4 &2783456364693703624
 Transform:
   m_ObjectHideFlags: 0
@@ -9531,7 +9651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1585417298}
+  - {fileID: 785718678}
   - {fileID: 550301479}
   - {fileID: 613139685}
   - {fileID: 1474369788}
@@ -9687,6 +9807,7 @@ GameObject:
   - component: {fileID: 3119251084903760753}
   - component: {fileID: 3119251084903210353}
   - component: {fileID: 3119251084893956785}
+  - component: {fileID: 3119251084904193874}
   m_Layer: 2
   m_Name: Start camera
   m_TagString: Untagged
@@ -9694,6 +9815,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3119251084904193874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3119251084904193873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 204734
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!4 &4094170965115234313
 Transform:
   m_ObjectHideFlags: 0
@@ -9947,7 +10083,7 @@ MonoBehaviour:
   - {fileID: 201420525}
   - {fileID: 585747750}
   - {fileID: 570889273}
-  - {fileID: 1656615844}
+  - {fileID: 222527822}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -10015,6 +10151,7 @@ GameObject:
   - component: {fileID: 7240259339229174482}
   - component: {fileID: 7240259339228611794}
   - component: {fileID: 7240259339236045586}
+  - component: {fileID: 7240259339228940019}
   m_Layer: 2
   m_Name: computer camera
   m_TagString: Untagged
@@ -10022,6 +10159,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7240259339228940019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7240259339228940018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 208568
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!4 &7240259339229174482
 Transform:
   m_ObjectHideFlags: 0
@@ -10303,6 +10455,7 @@ GameObject:
   - component: {fileID: 7722354220694557028}
   - component: {fileID: 7722354220692950884}
   - component: {fileID: 7722354220700481700}
+  - component: {fileID: 7722354220694457669}
   m_Layer: 2
   m_Name: tape recorder camera
   m_TagString: Untagged
@@ -10310,6 +10463,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7722354220694457669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722354220694457668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 207786
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!4 &7722354220694557028
 Transform:
   m_ObjectHideFlags: 0
