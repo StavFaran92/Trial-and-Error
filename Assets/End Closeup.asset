@@ -72,6 +72,51 @@ MonoBehaviour:
   moveMethod: 1
   returnToLast: 0
   retainPreviousSpeed: 0
+--- !u!114 &-7270314892021335600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: 2
+  constantID: 0
+  hotspot: {fileID: 0}
+  affectChildren: 1
+  changeType: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +132,8 @@ MonoBehaviour:
   actions:
   - {fileID: -9122692203178948079}
   - {fileID: 2739149038168363831}
+  - {fileID: 2757807953920422498}
+  - {fileID: -7270314892021335600}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -98,6 +145,32 @@ MonoBehaviour:
   - label: Camera on exit
     description: 
     ID: 0
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: hotspotToDisable
+    description: 
+    ID: 1
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: hotspotToEnable
+    description: 
+    ID: 2
     parameterType: 0
     intValue: -1
     constantID: 0
@@ -162,3 +235,48 @@ MonoBehaviour:
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1
+--- !u!114 &2757807953920422498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: 1
+  constantID: 0
+  hotspot: {fileID: 0}
+  affectChildren: 0
+  changeType: 1
