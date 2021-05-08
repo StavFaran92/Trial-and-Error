@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8676434140430189079}
   - component: {fileID: 8676434140430189078}
   - component: {fileID: 8676434140430189073}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 8676434140998068561}
   - component: {fileID: 8676434140998068567}
   - component: {fileID: 8676434140998068566}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: page border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 8676434141103386863}
   - component: {fileID: 8676434141103386861}
   - component: {fileID: 8676434141103386860}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: page content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 8676434141249975252}
   - component: {fileID: 8676434141249975258}
   - component: {fileID: 8676434141249975253}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8676434141613177152}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: page
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 8676434142131723988}
   - component: {fileID: 8676434142131723994}
   - component: {fileID: 8676434142131723989}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text Headline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
