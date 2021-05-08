@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: pages
+    uniqueID: 1533703797
+    locked: 0
+  - name: accordion
+    uniqueID: 3052445977
+    locked: 0
