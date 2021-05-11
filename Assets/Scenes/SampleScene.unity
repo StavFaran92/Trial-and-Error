@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1286,7 +1286,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -1330,6 +1330,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965480057}
     m_Modifications:
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.3254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.46666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.54509807
+      objectReference: {fileID: 0}
     - target: {fileID: 8676434141613177152, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
       propertyPath: m_RootOrder
@@ -1343,7 +1358,7 @@ PrefabInstance:
     - target: {fileID: 8676434141613177152, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.712
+      value: 0.717
       objectReference: {fileID: 0}
     - target: {fileID: 8676434141613177152, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
@@ -3650,11 +3665,11 @@ MonoBehaviour:
     Incident
     Date: June 17, 2004
 
-    
 
-    On the morning of June 17, 2004, 47-year-old
-    Cheryl Williams and her mother 68-year-old Carol Bareis were found stabbed to
-    death in their home at 121 Vagabond Way in Altamonte Springs, Florida. The condition
+
+    On the morning of June 17, 2004, 47-year-old Cheryl
+    Williams and her mother 68-year-old Carol Bareis were found stabbed to death
+    in their home at 121 Vagabond Way in Altamonte Springs, Florida. The condition
     of the bodies indicated that the time of death had been between 9:00 pm and 1:00
     am.
 
@@ -4299,7 +4314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5529412, g: 0.45882356, b: 0.3137255, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4954,6 +4969,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.3254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.46666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676434141103386860, guid: b60ecc41d96cea44e8f456e647e3ec55,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.54509807
+      objectReference: {fileID: 0}
     - target: {fileID: 8676434141103386862, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
       propertyPath: m_Layer
@@ -4977,7 +5007,7 @@ PrefabInstance:
     - target: {fileID: 8676434141613177152, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.712
+      value: 0.718
       objectReference: {fileID: 0}
     - target: {fileID: 8676434141613177152, guid: b60ecc41d96cea44e8f456e647e3ec55,
         type: 3}
@@ -5476,7 +5506,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -6828,7 +6858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5529412, g: 0.45882356, b: 0.3137255, a: 1}
+  m_Color: {r: 0.54509807, g: 0.46666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6957,7 +6987,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -7145,7 +7175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248270703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1429, y: 0.711, z: 3.117}
+  m_LocalPosition: {x: 0.1429, y: 0.716, z: 3.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1510321762}
@@ -7768,7 +7798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343060801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1429, y: 0.712, z: 3.117}
+  m_LocalPosition: {x: 0.1429, y: 0.72, z: 3.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 378011666}
@@ -7880,7 +7910,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -7959,6 +7989,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1966623946}
+  - {fileID: 1914208284}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8276,7 +8307,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -8613,7 +8644,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 6.559422
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -10617,6 +10648,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901971381}
   m_CullTransparentMesh: 0
+--- !u!1 &1914208283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914208284}
+  - component: {fileID: 1914208285}
+  m_Layer: 0
+  m_Name: Spot Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914208284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914208283}
+  m_LocalRotation: {x: 0.37801853, y: 0.79006135, z: -0.3146822, w: 0.3658966}
+  m_LocalPosition: {x: -0.545, y: 1.326, z: -0.513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1357473489}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50.703003, y: 147.505, z: 35.416}
+--- !u!108 &1914208285
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914208283}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0, g: 0.21176471, b: 1, a: 1}
+  m_Intensity: 6
+  m_Range: 1.8085369
+  m_SpotAngle: 65
+  m_InnerSpotAngle: 5.293186
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!114 &1925634450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10708,7 +10831,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8584906, g: 0.81656516, b: 0.72080815, a: 1}
-  m_Intensity: 16.11
+  m_Intensity: 9.55
   m_Range: 1.5663347
   m_SpotAngle: 46.5
   m_InnerSpotAngle: 5.293186
@@ -13965,7 +14088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5529412, g: 0.45882356, b: 0.3137255, a: 1}
+  m_Color: {r: 0.54509807, g: 0.46666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -14088,7 +14211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8676434141747409757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1429, y: 0.711, z: 3.117}
+  m_LocalPosition: {x: 0.1429, y: 0.719, z: 3.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8676434140564391950}
