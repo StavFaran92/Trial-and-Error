@@ -1169,7 +1169,20 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: ffffffffffffffffffffffffffffffff
+  - label: Action Run on exit
+    description: 
+    ID: 4
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 332702799}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffffffffffffffffffffffffffff
   setParameters: 0
   runMode: 1
   hasUpgradedAgain: 0
@@ -2323,6 +2336,80 @@ Transform:
   m_Father: {fileID: 2016046139}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &332702799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332702800}
+  - component: {fileID: 332702801}
+  - component: {fileID: 332702802}
+  m_Layer: 0
+  m_Name: body mark end closeup interaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332702800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332702799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2130677049}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332702801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332702799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1562277746}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData: []
+--- !u!114 &332702802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332702799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 153848
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!1 &349588044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,7 +2726,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 2831423970551233059}
   changeType: 0
   removeJournalPageMethod: 0
-  menuToChange: BladeHandlePopup
+  menuToChange: Scene1OutsideBladeHandlePopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -4232,6 +4319,80 @@ Transform:
   m_Father: {fileID: 2016046139}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &803146018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803146019}
+  - component: {fileID: 803146020}
+  - component: {fileID: 803146021}
+  m_Layer: 0
+  m_Name: 'footprint end closeup interaction '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &803146019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803146018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2130677049}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &803146020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803146018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1902092615}
+  isSkippable: 0
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData: []
+--- !u!114 &803146021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803146018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 154218
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!1 &815210228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5413,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 349588046}
   changeType: 0
   removeJournalPageMethod: 0
-  menuToChange: BladePopup
+  menuToChange: Scene1OutsideBladePopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -5543,7 +5704,7 @@ GameObject:
   - component: {fileID: 1059521490}
   - component: {fileID: 1059521491}
   m_Layer: 0
-  m_Name: knife end closeup
+  m_Name: knife end closeup interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5965,7 +6126,20 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: ffffffffffffffffffffffffffffffff
+  - label: Action Run on exit
+    description: 
+    ID: 4
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 803146018}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffffffffffffffffffffffffffff
   setParameters: 0
   runMode: 1
   hasUpgradedAgain: 0
@@ -7362,6 +7536,58 @@ MonoBehaviour:
   compareVariablesConstantID: 0
   placeholderType: 1
   placeholderPopUpLabelDataID: 0
+--- !u!114 &1562277746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 332702801}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &1607664076
 GameObject:
   m_ObjectHideFlags: 0
@@ -9981,6 +10207,58 @@ Transform:
   m_Father: {fileID: 55617976}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1902092615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 803146020}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1FootprintPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &1902563494 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7342827349933655436, guid: 189ebd68102e6da4d8c983861734b495,
@@ -10204,7 +10482,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1059521490}
   changeType: 1
   removeJournalPageMethod: 0
-  menuToChange: BladePopup
+  menuToChange: Scene1OutsideBladePopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -10256,7 +10534,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1059521490}
   changeType: 1
   removeJournalPageMethod: 0
-  menuToChange: BladeHandlePopup
+  menuToChange: Scene1OutsideBladeHandlePopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -10531,6 +10809,8 @@ Transform:
   - {fileID: 1643182726}
   - {fileID: 1891007611}
   - {fileID: 484690713}
+  - {fileID: 803146019}
+  - {fileID: 332702800}
   m_Father: {fileID: 136033161}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
