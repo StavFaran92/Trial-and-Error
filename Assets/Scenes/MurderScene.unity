@@ -676,7 +676,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 905757630}
   - {fileID: 1010028462}
+  - {fileID: 1207680110}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -1087,7 +1089,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -1097,8 +1099,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 44
+    y: 44
     width: 300
     height: 284
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1396,6 +1398,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179726145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &195862775
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,7 +2282,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1704000332}
   - {fileID: 358090328}
+  - {fileID: 2033414286}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -2504,7 +2560,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -2514,8 +2570,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 44
+    y: 44
     width: 300
     height: 284
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2586,7 +2642,20 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: ffffffffffffffffffffffffffffffff
+  - label: Action Run on exit
+    description: 
+    ID: 4
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 2033627656}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffffffffffffffffffffffffffff
   setParameters: 0
   runMode: 1
   hasUpgradedAgain: 0
@@ -2736,6 +2805,58 @@ MonoBehaviour:
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1
+--- !u!114 &453146123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1891007613}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1FootprintPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &463700923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +2887,8 @@ Transform:
   - {fileID: 86845226}
   - {fileID: 77035715}
   - {fileID: 260579242}
+  - {fileID: 2033627657}
+  - {fileID: 1460600012}
   m_Father: {fileID: 136033161}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2829,7 +2952,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 539958606}
   - {fileID: 128683582}
+  - {fileID: 934016453}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3289,6 +3414,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &539958606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 484690715}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1FootprintPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!114 &590665513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,6 +3914,58 @@ MonoBehaviour:
   moveMethod: 2
   returnToLast: 0
   retainPreviousSpeed: 0
+--- !u!114 &733059884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2WheelchairPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!114 &742487836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4765,6 +4994,58 @@ Transform:
   m_Father: {fileID: 395901818}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &905757630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &907442018
 GameObject:
   m_ObjectHideFlags: 0
@@ -5074,6 +5355,58 @@ Transform:
   m_Father: {fileID: 485275099}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &934016453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 484690715}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &970770510
 GameObject:
   m_ObjectHideFlags: 0
@@ -5446,7 +5779,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -5456,8 +5789,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 44
+    y: 44
     width: 300
     height: 284
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5528,7 +5861,20 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: ffffffffffffffffffffffffffffffff
+  - label: Action Run on exit
+    description: 
+    ID: 4
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 1460600011}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: ffffffffffffffffffffffffffffffffffffffff
   setParameters: 0
   runMode: 1
   hasUpgradedAgain: 0
@@ -6021,6 +6367,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207680110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2WheelchairPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!114 &1222328187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6044,9 +6442,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 0
+    skipAction: 1
+    skipActionActual: {fileID: 453146123}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6054,8 +6452,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 44
+    y: 44
     width: 300
     height: 284
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7061,6 +7459,80 @@ MonoBehaviour:
   hotspot: {fileID: 0}
   affectChildren: 1
   changeType: 0
+--- !u!1 &1460600011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460600012}
+  - component: {fileID: 1460600013}
+  - component: {fileID: 1460600014}
+  m_Layer: 0
+  m_Name: wheelchair end closeup interaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460600012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460600011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 463700924}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1460600013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460600011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 733059884}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData: []
+--- !u!114 &1460600014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460600011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 105428
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!1 &1482991157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8025,6 +8497,58 @@ Transform:
   m_Father: {fileID: 395901818}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1704000332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2WheelchairPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &1729144531
 GameObject:
   m_ObjectHideFlags: 0
@@ -8215,6 +8739,58 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1783225226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1891007613}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room1BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &1821872568
 GameObject:
   m_ObjectHideFlags: 0
@@ -10150,7 +10726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1783225226}
   - {fileID: 1222328187}
+  - {fileID: 453146123}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -10644,6 +11222,132 @@ Transform:
   m_Father: {fileID: 485275099}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033414286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: Scene1Room2BodyMarkPopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
+--- !u!1 &2033627656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2033627657}
+  - component: {fileID: 2033627658}
+  - component: {fileID: 2033627659}
+  m_Layer: 0
+  m_Name: body mark end closeup interaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2033627657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033627656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 463700924}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033627658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033627656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 179726145}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData: []
+--- !u!114 &2033627659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033627656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 102744
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &2040863195
 MonoBehaviour:
   m_ObjectHideFlags: 0
