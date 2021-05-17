@@ -6,8 +6,9 @@ using UnityEngine;
 
 public class PageController : MonoBehaviour
 {
-    private const float mPagePeakHeight = 0.8f;
     public float mPageHeightOffset = 0.72f;
+
+    private const float mPagePeakHeight = 0.8f;
     private const float mPageTweenVerDuration = .3f;
     private const float mPageTweenHorDuration = .7f;
     private const float pageSideOffset = 0.142f;

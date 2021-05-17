@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4262071467388286179}
   - component: {fileID: 2309644716551887270}
   m_Layer: 5
-  m_Name: BladeHandlePopupUI
+  m_Name: Scene1OutsideBladeHandlePopupUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134,8 +134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 218.85065, y: 30}
+  m_AnchoredPosition: {x: 337.6, y: 25.3}
+  m_SizeDelta: {x: 246.7, y: 108.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7805676518675239879
 CanvasRenderer:
@@ -199,7 +199,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8408500370068682496}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -208,8 +208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 218.85532, y: 30}
+  m_AnchoredPosition: {x: 338.3, y: 25.3}
+  m_SizeDelta: {x: 209.9, y: 132.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5354733428619813248
 CanvasRenderer:
@@ -239,16 +239,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0f2059ebb79909b46a4e7699da571b87, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blade Handle Popup Text
+  m_Text: "A latent-print examiner testified that there is a palm print on the murder
+    weapon and determined that the print matched Aguirre\u2019s left palm-print.
+    \r"

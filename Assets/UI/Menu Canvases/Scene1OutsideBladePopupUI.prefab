@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 6302433655095087481}
   - component: {fileID: 5503069777969003580}
   m_Layer: 5
-  m_Name: BladePopupUI
+  m_Name: Scene1OutsideBladePopupUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
