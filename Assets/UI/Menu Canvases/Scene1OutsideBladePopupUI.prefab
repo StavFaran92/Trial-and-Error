@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: 84}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -185.4, y: 84}
+  m_SizeDelta: {x: 382.5, y: 182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1918350941
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -183, y: 84}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 349.2, y: 154.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2746211440458351642
 CanvasRenderer:
@@ -139,19 +139,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0f2059ebb79909b46a4e7699da571b87, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blade Popup Text
+  m_Text: The knife was found between Aguirre's residence and the victims' residence.
+    The knife was the same make and model used at Aguirre's place of employment.
+    After speaking with the head chef at the restaurant where Aguirre worked, law
+    enforcement officers determined that a ten-inch chef's knife was missing from
+    the restaurant. All of the stab wounds sustained by Cheryl and Carol were consistent
+    with being caused by this knife.
 --- !u!1 &7613012073941397907
 GameObject:
   m_ObjectHideFlags: 0
