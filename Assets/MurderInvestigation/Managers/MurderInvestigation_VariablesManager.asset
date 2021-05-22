@@ -31,7 +31,7 @@ MonoBehaviour:
     textValLineID: -1
     popUpsLineID: -1
     description: 
-    showInFilter: 0
+    showInFilter: 1
   varPresets: []
   updateRuntime: 1
   popUpLabelData: []
