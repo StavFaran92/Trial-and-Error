@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: MurderInvestigation_VariablesManager
   m_EditorClassIdentifier: 
   vars:
-  - label: Sequence/New integer
-    id: 0
+  - label: Initial Page Index
+    id: 1
     type: 1
     val: 0
     floatVal: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
     gameObjectSaveReferences: 1
     popUps: []
     vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
+    link: 3
     pmVar: 
     updateLinkOnStart: 0
     canTranslate: 1

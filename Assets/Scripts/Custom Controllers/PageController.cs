@@ -1,25 +1,27 @@
 ﻿using AC;
 using DG.Tweening;
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PageController : MonoBehaviour
 {
     public float mPageHeightOffset = 0.72f;
 
-    private const float mPagePeakHeight = 0.8f;
-    private const float mPageTweenVerDuration = .3f;
-    private const float mPageTweenHorDuration = .7f;
-    private const float pageSideOffset = 0.142f;
+    private const float PagePeakHeight = 0.8f;
+    private const float PageSideOffset = 0.142f;
+    private const float PageDefaultTweenVerDuration = .3f;
+    private const float PageDefaultTweenHorDuration = .7f;
+
     [SerializeField] private Transform[] mPages;
 
-
+    private GVar initialPageOnStart;
     private int mCurrentPage = 0;
 
     void Start()
     {
+        initialPageOnStart = GlobalVariables.GetVariable("Initial Page Index");
+
         SetupInitialPagesHeights();
+        SetupInitialPage();
     }
 
     private void SetupInitialPagesHeights()
@@ -29,6 +31,18 @@ public class PageController : MonoBehaviour
             var position = mPages[pageIndex].position;
             mPages[pageIndex].position = new Vector3(position.x, PageHeight(pageIndex, false), position.z);
         }
+    }
+
+    private void SetupInitialPage()
+    {
+        mCurrentPage = initialPageOnStart.IntegerValue;
+
+        for (int i = 0; i < initialPageOnStart.IntegerValue; i++)
+        {
+            mPages[i].position = new Vector3(-PageSideOffset, PageHeight(i, true), mPages[i].position.z);
+        }
+
+        SetPagesHotspot();
     }
 
     void Update()
@@ -53,6 +67,7 @@ public class PageController : MonoBehaviour
         }
 
         SetPagesHotspot();
+        initialPageOnStart.IntegerValue = mCurrentPage;
     }
 
 
@@ -65,6 +80,7 @@ public class PageController : MonoBehaviour
         }
 
         SetPagesHotspot();
+        initialPageOnStart.IntegerValue = mCurrentPage;
     }
 
     private void SetPagesHotspot()
@@ -112,9 +128,9 @@ public class PageController : MonoBehaviour
 
     private void SwipePageAnimation(int pageIndex, bool isMovingToLeftSide)
     {
-        mPages[pageIndex].DOMoveY(mPagePeakHeight, mPageTweenVerDuration)
-            .OnComplete(()=>mPages[pageIndex].DOMoveX(pageSideOffset * (isMovingToLeftSide ? -1 : 1), mPageTweenHorDuration)
-            .OnComplete(() => mPages[pageIndex].DOMoveY(PageHeight(pageIndex, isMovingToLeftSide), mPageTweenVerDuration)));
+        mPages[pageIndex].DOMoveY(PagePeakHeight, PageDefaultTweenVerDuration)
+            .OnComplete(()=>mPages[pageIndex].DOMoveX(PageSideOffset * (isMovingToLeftSide ? -1 : 1), PageDefaultTweenHorDuration)
+            .OnComplete(() => mPages[pageIndex].DOMoveY(PageHeight(pageIndex, isMovingToLeftSide), PageDefaultTweenVerDuration)));
         ;
     }
 
