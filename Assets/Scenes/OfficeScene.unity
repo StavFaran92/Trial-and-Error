@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightWhenSelected: 1
-  brightenMaterials: 1
+  brightenMaterials: 0
   affectChildren: 1
   fadeTime: 0.3
   flashHoldTime: 0
@@ -190,13 +190,35 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  callEvents: 0
+  callEvents: 1
   onHighlightOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5383163016145088311}
+        m_MethodName: ObjectHighlightOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHighlightOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5383163016145088311}
+        m_MethodName: ObjectHighlightOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4987431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4811,7 +4833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightWhenSelected: 1
-  brightenMaterials: 1
+  brightenMaterials: 0
   affectChildren: 1
   fadeTime: 0.3
   flashHoldTime: 0
@@ -4839,13 +4861,35 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  callEvents: 0
+  callEvents: 1
   onHighlightOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2605525043729733530}
+        m_MethodName: ObjectHighlightOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHighlightOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2605525043729733530}
+        m_MethodName: ObjectHighlightOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &585228682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5644,6 +5688,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631730645}
   m_CullTransparentMesh: 0
+--- !u!1 &648754262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5915418446114984722, guid: 2efd25605db9aba4ab3fe8419cde27c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1074608233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &648754263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648754262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45375b69b778044d2aad23806033c742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOutlineWidth: 20
+  highlightOutlineColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &650174699
 GameObject:
   m_ObjectHideFlags: 0
@@ -7187,7 +7251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightWhenSelected: 1
-  brightenMaterials: 1
+  brightenMaterials: 0
   affectChildren: 1
   fadeTime: 0.3
   flashHoldTime: 0
@@ -7215,13 +7279,35 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  callEvents: 0
+  callEvents: 1
   onHighlightOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 648754263}
+        m_MethodName: ObjectHighlightOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHighlightOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 648754263}
+        m_MethodName: ObjectHighlightOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &797904269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2efd25605db9aba4ab3fe8419cde27c1,
@@ -8286,7 +8372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightWhenSelected: 1
-  brightenMaterials: 1
+  brightenMaterials: 0
   affectChildren: 1
   fadeTime: 0.3
   flashHoldTime: 0
@@ -8314,7 +8400,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  callEvents: 0
+  callEvents: 1
   onHighlightOn:
     m_PersistentCalls:
       m_Calls: []
@@ -19270,6 +19356,7 @@ GameObject:
   - component: {fileID: 6405410786134894779}
   - component: {fileID: 6780604877971175818}
   - component: {fileID: 7797531588665121666}
+  - component: {fileID: 2605525043729733530}
   m_Layer: 0
   m_Name: tape_recorder_2
   m_TagString: Untagged
@@ -19277,6 +19364,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2605525043729733530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605525043729733529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45375b69b778044d2aad23806033c742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOutlineWidth: 20
+  highlightOutlineColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!33 &2615056191579391243
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21902,6 +22003,7 @@ GameObject:
   - component: {fileID: 7119572017043532764}
   - component: {fileID: 1389798954109411244}
   - component: {fileID: 7552432452905330394}
+  - component: {fileID: 5383163016145088311}
   m_Layer: 0
   m_Name: screen
   m_TagString: Untagged
@@ -21909,6 +22011,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5383163016145088311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383163016145088310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45375b69b778044d2aad23806033c742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOutlineWidth: 20
+  highlightOutlineColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5431164020017033448
 GameObject:
   m_ObjectHideFlags: 0
