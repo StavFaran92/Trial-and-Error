@@ -36,7 +36,8 @@ namespace UnityEngine.UI
 			this.m_LayoutElement = this.gameObject.GetComponent<LayoutElement>();
 			this.onValueChanged.AddListener(OnValueChanged);
 		}
-		
+
+#if UNITY_EDITOR
 		protected override void OnValidate()
 		{
 			base.OnValidate();
@@ -65,7 +66,8 @@ namespace UnityEngine.UI
 				}
 			}
 		}
-		
+#endif
+
 		public void OnValueChanged(bool state)
 		{
 			if (this.m_LayoutElement == null)
