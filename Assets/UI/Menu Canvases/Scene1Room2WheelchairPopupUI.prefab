@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 167.1, y: -32}
-  m_SizeDelta: {x: 275.7, y: 66.4}
+  m_SizeDelta: {x: 275.7, y: 113.33944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &981081290030781064
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 247, y: 66.4}
+  m_SizeDelta: {x: 247, y: 113.33941}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3134787902335410383
 CanvasRenderer:
@@ -151,8 +151,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Carol Bareis was a stroke victim, partially paralyzed, and spent most of
-    her time in a wheelchair.
+  m_Text: 'Wheelchair:
+
+
+    Carol Bareis was a stroke victim, partially paralyzed,
+    and spent most of her time in a wheelchair.'
 --- !u!1 &7222465491314398534
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 238.8, y: 116.6}
+  m_AnchoredPosition: {x: -166.7, y: 6.6}
+  m_SizeDelta: {x: 238.8, y: 170.8179}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2046701155124660705
 CanvasRenderer:
@@ -77,9 +77,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A crime-scene analyst testified that 64 footprint impressions were consistent
-    with the tread pattern on Aguirre\u2019s shoes. One of them was found on victim\u2019s
-    body. The soles of his shoes contained Cheryl's blood. "
+  m_Text: "Footprint:\n\nA crime-scene analyst testified that 64 footprint impressions
+    were consistent with the tread pattern on Aguirre\u2019s shoes. One of them was
+    found on victim\u2019s body. The soles of his shoes contained Cheryl's blood. "
 --- !u!1 &4214198384755719073
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,8 +114,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 165.4, y: -32}
-  m_SizeDelta: {x: 256.1, y: 116.6}
+  m_AnchoredPosition: {x: -166.7, y: 6.6}
+  m_SizeDelta: {x: 256.1, y: 170.8179}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4214198384755719078
 CanvasRenderer:

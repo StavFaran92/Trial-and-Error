@@ -134,8 +134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 337.6, y: 25.3}
-  m_SizeDelta: {x: 246.7, y: 108.2}
+  m_AnchoredPosition: {x: 225.8, y: 25.3}
+  m_SizeDelta: {x: 246.7, y: 137.77655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7805676518675239879
 CanvasRenderer:
@@ -208,8 +208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 338.3, y: 25.3}
-  m_SizeDelta: {x: 209.9, y: 108.2}
+  m_AnchoredPosition: {x: 225.8, y: 25.3}
+  m_SizeDelta: {x: 209.9, y: 137.7765}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5354733428619813248
 CanvasRenderer:
@@ -251,6 +251,6 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A latent-print examiner testified that there is a palm print on the murder
-    weapon and determined that the print matched Aguirre\u2019s left palm-print.
-    \r"
+  m_Text: "Knife's handle:\n\nA latent-print examiner testified that there is a palm
+    print on the murder weapon and determined that the print matched Aguirre\u2019s
+    left palm-print. \r"

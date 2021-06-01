@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 286.3, y: 83.5}
+  m_SizeDelta: {x: 286.3, y: 132.55226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &808492393455893329
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 169, y: -32}
-  m_SizeDelta: {x: 258.5, y: 83.5}
+  m_SizeDelta: {x: 258.5, y: 132.55226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3252961558250047766
 CanvasRenderer:
@@ -151,9 +151,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Carol suffered two stab wounds. The fatal stab wound went directly into
-    her chest and severed her left ventricle, and the other stab wound was to her
-    back. '
+  m_Text: 'Carol''s body:
+
+
+    Carol suffered two stab wounds. The fatal stab wound
+    went directly into her chest and severed her left ventricle, and the other stab
+    wound was to her back. '
 --- !u!1 &7106273021103832223
 GameObject:
   m_ObjectHideFlags: 0
