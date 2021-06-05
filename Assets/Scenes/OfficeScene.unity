@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.5474876, b: 0.37824848, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    Sheryl''s Body'
+    Carol''s Body'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -4096,7 +4096,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    ???'
+    Unknown'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -4623,7 +4623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.5474876, b: 0.37824848, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6417,7 +6417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b1daffbe6389b64cbe72c25317f79b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 195a7086f886d6a4ca56cfee41b59add, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6818,7 +6818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.5474876, b: 0.37824848, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6972,9 +6972,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Evidence text!
-
-    blah blah blah.'
+  m_text: "A crime-scene analyst testified that 64 footprint impressions were consistent
+    with the tread pattern on Aguirre\u2019s shoes. One of them was found under victim\u2019s
+    body. The soles of his shoes contained Cheryl's blood."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -7360,9 +7360,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'OTHER EVIDENCE:
+  m_text: 'Murder weapon:
 
-    ???'
+    Unknown'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -7951,9 +7951,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Evidence text!
-
-    blah blah blah.'
+  m_text: "The knife was found between Aguirre's residence and the victims' residence.
+    It was the same make and model used at Aguirre's place of employment. After speaking
+    with the head chef at the restaurant where Aguirre worked, law enforcement officers
+    determined that a ten-inch chef's knife was missing from the restaurant. All
+    of the stab wounds sustained by Cheryl and Carol were consistent with being caused
+    by this knife. A latent-print examiner testified that there is a palm print on
+    the murder weapon and determined that the print matched Aguirre\u2019s left palm-print.
+    \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -7981,8 +7986,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.05
-  m_fontSizeBase: 0.05
+  m_fontSize: 0.036
+  m_fontSizeBase: 0.036
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9480,8 +9485,8 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
+  m_PreferredWidth: 300
+  m_PreferredHeight: 150
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -9929,7 +9934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ???
+  m_text: Find the remaining evidence at the crime scene.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -10311,7 +10316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ???
+  m_text: Find the remaining evidence at the crime scene.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -11520,7 +11525,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'OTHER EVIDENCE:
+  m_text: 'MURDER WEAPON:
 
     Knife'
   m_isRightToLeft: 0
@@ -14395,7 +14400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.5474876, b: 0.37824848, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -15075,9 +15080,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Evidence text!
-
-    blah blah blah.'
+  m_text: Cheryl had been stabbed 129 times. She had severe wounds to her lungs and
+    leg, one of which severed her femoral artery. She also had numerous defensive
+    wounds on her hands and feet that indicated an extremely violent struggle for
+    her life. She was stabbed in the arms, legs, back, hands, feet, and chest. One
+    stab wound to her left lung was considered fatal.  The knife contained Cheryl's
+    blood on the handle and Carol's blood on the blade, indicating that Cheryl was
+    killed first.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -15105,8 +15114,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.05
-  m_fontSizeBase: 0.05
+  m_fontSize: 0.036
+  m_fontSizeBase: 0.036
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15513,7 +15522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6415094, g: 0.5474876, b: 0.37824848, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -16491,7 +16500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ???
+  m_text: Find the remaining evidence at the crime scene.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -17240,9 +17249,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Evidence text!
-
-    blah blah blah.'
+  m_text: 'Carol suffered two stab wounds. The fatal stab wound went directly into
+    her chest and severed her left ventricle, and the other stab wound was to her
+    back. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -17270,8 +17279,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.05
-  m_fontSizeBase: 0.05
+  m_fontSize: 0.036
+  m_fontSizeBase: 0.036
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18145,7 +18154,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ???
+  m_text: Find the murder weapon at the Crime Scene.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -19101,7 +19110,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    ???'
+    Unknown'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -19589,7 +19598,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    Carol''s Body'
+    Sheryl''s Body'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -20767,7 +20776,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    ???'
+    Unknown'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -23191,7 +23200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.77040124, b: 0.50907797, a: 1}
+  m_Color: {r: 0.54509807, g: 0.4666667, b: 0.3254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -23874,7 +23883,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2783456364693411816}
   m_LocalRotation: {x: 0.6896606, y: -0, z: -0, w: 0.72413284}
-  m_LocalPosition: {x: 0.024, y: 1.1, z: 3.115}
+  m_LocalPosition: {x: 0.006, y: 1.135, z: 3.132}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2142582883}
