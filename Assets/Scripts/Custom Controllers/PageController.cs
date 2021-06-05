@@ -8,15 +8,16 @@ public class PageController : MonoBehaviour
 
     private const float PagePeakHeight = 0.8f;
     private const float PageSideOffset = 0.142f;
-    private const float PageDefaultTweenVerDuration = .3f;
-    private const float PageDefaultTweenHorDuration = .7f;
 
+    [SerializeField] private float pageTweenVerticalDuration = 0.3f;
+    [SerializeField] private float pageTweenHorizontalDuration = 0.7f;
     [SerializeField] private Transform[] mPages;
 
     private GVar initialPageOnStart;
     private int mCurrentPage = 0;
+    private bool isPageSwappingEnabled = true;
 
-    void Start()
+    private void Start()
     {
         initialPageOnStart = GlobalVariables.GetVariable("Initial Page Index");
 
@@ -45,20 +46,20 @@ public class PageController : MonoBehaviour
         SetPagesHotspot();
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (isPageSwappingEnabled && Input.GetKeyDown(KeyCode.RightArrow))
         {
-            SwipeToNextPage();
+            SwapToNextPage();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (isPageSwappingEnabled && Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            SwipeToPreviousPage();
+            SwapToPreviousPage();
         }
     }
 
-    private void SwipeToNextPage()
+    private void SwapToNextPage()
     {
         if (mCurrentPage < mPages.Length - 1)
         {
@@ -71,7 +72,7 @@ public class PageController : MonoBehaviour
     }
 
 
-    private void SwipeToPreviousPage()
+    private void SwapToPreviousPage()
     {
         if (mCurrentPage > 0)
         {
@@ -128,10 +129,11 @@ public class PageController : MonoBehaviour
 
     private void SwipePageAnimation(int pageIndex, bool isMovingToLeftSide)
     {
-        mPages[pageIndex].DOMoveY(PagePeakHeight, PageDefaultTweenVerDuration)
-            .OnComplete(()=>mPages[pageIndex].DOMoveX(PageSideOffset * (isMovingToLeftSide ? -1 : 1), PageDefaultTweenHorDuration)
-            .OnComplete(() => mPages[pageIndex].DOMoveY(PageHeight(pageIndex, isMovingToLeftSide), PageDefaultTweenVerDuration)));
-        ;
+        isPageSwappingEnabled = false;
+        mPages[pageIndex].DOMoveY(PagePeakHeight, pageTweenVerticalDuration)
+            .OnComplete(() => mPages[pageIndex].DOMoveX(PageSideOffset * (isMovingToLeftSide ? -1 : 1), pageTweenHorizontalDuration)
+            .OnComplete(() => mPages[pageIndex].DOMoveY(PageHeight(pageIndex, isMovingToLeftSide), pageTweenVerticalDuration)
+            .OnComplete(() => isPageSwappingEnabled = true)));
     }
 
     // Setup page height relative to its index.
