@@ -2,6 +2,7 @@
 using DG.Tweening;
 using UnityEngine;
 
+[RequireComponent(typeof(HorizontalSwipeGestureRecognizer))]
 public class PageController : MonoBehaviour
 {
     public float mPageHeightOffset = 0.72f;
@@ -23,6 +24,20 @@ public class PageController : MonoBehaviour
 
         SetupInitialPagesHeights();
         SetupInitialPage();
+
+        var recognizer = GetComponent<HorizontalSwipeGestureRecognizer>();
+        recognizer.SwipeCallback = (direction) =>
+        {
+            if (isPageSwappingEnabled && direction == HorizontalSwipeGestureRecognizer.SwipeDirection.Right)
+            {
+                SwapToNextPage();
+            }
+
+            if (isPageSwappingEnabled && direction == HorizontalSwipeGestureRecognizer.SwipeDirection.Left)
+            {
+                SwapToPreviousPage();
+            }
+        };
     }
 
     private void SetupInitialPagesHeights()
@@ -44,19 +59,6 @@ public class PageController : MonoBehaviour
         }
 
         SetPagesHotspot();
-    }
-
-    private void Update()
-    {
-        if (isPageSwappingEnabled && Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            SwapToNextPage();
-        }
-
-        if (isPageSwappingEnabled && Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            SwapToPreviousPage();
-        }
     }
 
     private void SwapToNextPage()
