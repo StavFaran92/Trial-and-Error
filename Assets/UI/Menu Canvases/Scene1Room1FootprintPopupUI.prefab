@@ -79,7 +79,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Footprint:\n\nA crime-scene analyst testified that 64 footprint impressions
     were consistent with the tread pattern on Aguirre\u2019s shoes. One of them was
-    found on victim\u2019s body. The soles of his shoes contained Cheryl's blood. "
+    found under victim\u2019s body. The soles of his shoes contained Cheryl's blood. "
 --- !u!1 &4214198384755719073
 GameObject:
   m_ObjectHideFlags: 0

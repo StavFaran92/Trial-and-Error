@@ -863,10 +863,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'On the morning of June 17, 2004, 47-year-old Cheryl Williams and her mother
-    68-year-old Carol Bareis were found stabbed to death in their home at 121 Vagabond
-    Way in Altamonte Springs, Florida. The condition of the bodies indicated that
-    the time of death had been between 9:00 pm and 1:00 am.
+  m_text: 'On the morning of June 17, 2004, 47-year-old Cheryl Williams and her mother,
+    68-year-old Carol Bareis, were found stabbed to death in their home in Altamonte
+    Springs, Florida. The condition of the bodies indicated that the time of death
+    had been between 9:00 pm and 1:00 am.
 
 '
   m_isRightToLeft: 0
@@ -2131,121 +2131,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211624256}
   m_CullTransparentMesh: 0
---- !u!1 &218848349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 218848350}
-  - component: {fileID: 218848353}
-  - component: {fileID: 218848352}
-  - component: {fileID: 218848351}
-  - component: {fileID: 218848354}
-  m_Layer: 5
-  m_Name: Headline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &218848350
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218848349}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400280259}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &218848351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218848349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: 18
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &218848352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218848349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.11320752, g: 0.035313718, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c535d8f60af42714d85c789097f7fbed, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'The day of the murder
-
-'
---- !u!222 &218848353
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218848349}
-  m_CullTransparentMesh: 0
---- !u!114 &218848354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218848349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ddb7efa159c43908bf3c3d5e1daa76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightedTextColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &222527822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3255,11 +3140,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'He had the day before the murders off from work so he began drinking early
+  m_Text: He had the day before the murders off from work so he began drinking early
     with his friends. He returned back home at approximately 5 a.m. on the morning
-    of the murders.
-
-'
+    of the murders. Aguirre stated that he watched television and then got up to
+    look for beer. There was no beer in his trailer so he walked next door. He attempted
+    to go inside, but Cheryl's body was blocking the door. He lifted Cheryl's body
+    on to his lap and tried to revive her. He realized she was dead so he put her
+    back on the floor where he found her. Aguirre then walked toward the living room
+    and found Carol dead as well. Aguirre noticed the murder weapon sitting on a
+    box near where Cheryl was lying. He stated that he feared the killer was still
+    inside the house; therefore, he picked up the knife and screamed, "Is anybody
+    here?" There was no reply. He then walked to Samantha's room. She was not there,
+    but her room had been ransacked.
 --- !u!222 &341045303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3662,7 +3554,7 @@ GameObject:
   - component: {fileID: 375462807}
   - component: {fileID: 375462806}
   m_Layer: 5
-  m_Name: Item 4
+  m_Name: Item 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3682,7 +3574,7 @@ RectTransform:
   - {fileID: 1149012647}
   - {fileID: 776146612}
   m_Father: {fileID: 467639560}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4173,148 +4065,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397298942}
-  m_CullTransparentMesh: 0
---- !u!1 &400280258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 400280259}
-  - component: {fileID: 400280263}
-  - component: {fileID: 400280262}
-  - component: {fileID: 400280261}
-  - component: {fileID: 400280260}
-  m_Layer: 5
-  m_Name: Item 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &400280259
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400280258}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 218848350}
-  - {fileID: 569047951}
-  m_Father: {fileID: 467639560}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &400280260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400280258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e1bcb49c408f2429a9f9ab9f26cf3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  toggleTransition: 0
-  graphic: {fileID: 0}
-  m_Group: {fileID: 467639561}
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_IsOn: 0
-  m_MinHeight: 18
---- !u!114 &400280261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400280258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: 18
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &400280262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400280258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 2
-    m_Right: 2
-    m_Top: 2
-    m_Bottom: 2
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
---- !u!222 &400280263
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400280258}
   m_CullTransparentMesh: 0
 --- !u!1 &408268393
 GameObject:
@@ -4824,7 +4574,6 @@ RectTransform:
   - {fileID: 1146282451}
   - {fileID: 169465793}
   - {fileID: 1113509345}
-  - {fileID: 400280259}
   - {fileID: 375462805}
   - {fileID: 779763931}
   m_Father: {fileID: 1172663725}
@@ -5512,95 +5261,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightedTextColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &569047950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 569047951}
-  - component: {fileID: 569047953}
-  - component: {fileID: 569047952}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &569047951
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569047950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400280259}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &569047952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569047950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 0f2059ebb79909b46a4e7699da571b87, type: 3}
-    m_FontSize: 13
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Aguirre stated that he watched television and then got up to look for
-    beer. There was no beer in his trailer so he walked next door. He attempted to
-    go inside, but Cheryl''s body was blocking the door. He lifted Cheryl''s body
-    on to his lap and tried to revive her. He realized she was dead so he put her
-    back on the floor where he found her. Aguirre then walked toward the living room
-    and found Carol dead as well. Aguirre noticed the murder weapon sitting on a
-    box near where Cheryl was lying. He stated that he feared the killer was still
-    inside the house; therefore, he picked up the knife and screamed, "Is anybody
-    here?" There was no reply. He then walked to Samantha''s room. She was not there,
-    but her room had been ransacked.
-
-'
---- !u!222 &569047953
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569047950}
-  m_CullTransparentMesh: 0
 --- !u!1 &584808590
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,7 +5722,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Samantha, who had come to the scene, said she had a strong suspicion \u2014
     a \u201Cgut feeling\u201D \u2014 that the attacker was 24-year-old Clemente Aguirre-Jarquin,
-    who lived at 117 Vagabond Way.\r\n"
+    their neighbour.\r\n"
 --- !u!222 &599192721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6659,8 +6319,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "State: \nFlorida\nType of Crime: \nHomicide Related\nIncident Date: \nJune
-    17, 2004\n"
+  m_text: "State: Florida\n\nType of Crime: \nHomicide Related\n\nIncident Date:
+    \nJune 17, 2004\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -8340,7 +8000,7 @@ GameObject:
   - component: {fileID: 779763933}
   - component: {fileID: 779763932}
   m_Layer: 5
-  m_Name: Item 5
+  m_Name: Item 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8360,7 +8020,7 @@ RectTransform:
   - {fileID: 560118106}
   - {fileID: 674596745}
   m_Father: {fileID: 467639560}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10634,7 +10294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30cb0fcd1b1d8d14ca672719a4549c58, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42acf6871bae85a4ca4cfe2bef0d9ad7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11674,7 +11334,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cheryl\u2019s daughter, Carol\u2019s Granddaughter\r.\n"
+  m_Text: "Cheryl\u2019s daughter, Carol\u2019s Granddaughter, she lives with them.\n"
 --- !u!222 &1113392350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17781,7 +17441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Before the murders
+  m_Text: 'The day of the murder
 
 '
 --- !u!222 &1734979408

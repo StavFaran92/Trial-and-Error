@@ -135,7 +135,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110.7, y: -64.4}
-  m_SizeDelta: {x: 458.1, y: 192.02724}
+  m_SizeDelta: {x: 458.1, y: 170.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4761516840390830470
 CanvasRenderer:
@@ -209,7 +209,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110.7, y: -64.4}
-  m_SizeDelta: {x: 413.5, y: 192.02724}
+  m_SizeDelta: {x: 413.5, y: 170.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7208238353949187009
 CanvasRenderer:
@@ -254,10 +254,9 @@ MonoBehaviour:
   m_Text: 'Cheryl''s body:
 
 
-    Cheryl had been stabbed 129 times. She had severe
-    wounds to her lungs and leg, one of which severed her femoral artery. She also
-    had numerous defensive wounds on her hands and feet that indicated an extremely
-    violent struggle for her life. She was stabbed in the arms, legs, back, hands,
-    feet, and chest. One stab wound to her left lung was considered fatal.  The knife
-    contained Cheryl''s blood on the handle and Carol''s blood on the blade, indicating
-    that Cheryl was killed first.'
+    Cheryl had been stabbed 129 times. She also had
+    numerous defensive wounds on her hands and feet that indicated an extremely violent
+    struggle for her life. She was stabbed in the arms, legs, back, hands, feet,
+    and chest. One stab wound to her left lung was considered fatal.  The knife contained
+    Cheryl''s blood on the handle and Carol''s blood on the blade, indicating that
+    Cheryl was killed first.'
