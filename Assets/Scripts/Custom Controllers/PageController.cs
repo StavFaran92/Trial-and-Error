@@ -103,12 +103,7 @@ public class PageController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// This is a bit wastefull but since it not supposed to be called many times We can handle it
-    /// </summary>
-    /// <param name="pageIndex"></param>
-    /// <param name="value"></param>
-    private void SetHotspotIfNotAbsent(int pageIndex, bool value)
+    private void SetHotspotIfNotAbsent(int pageIndex, bool shouldEnableHotspot)
     {
         //I would have preffered to use the Hotspot component, yet AC's manual activation of hotspot is a bit problematic 
         //So this is a small workaround.
@@ -117,15 +112,7 @@ public class PageController : MonoBehaviour
         if (hotspot != null)
         {
             var gameobject = hotspot.gameObject;
-
-            if (value)
-            {
-                gameobject.SetActive(true);
-            }
-            else
-            {
-                gameobject.SetActive(false);
-            }
+            gameobject.SetActive(shouldEnableHotspot);
         }
     }
 
@@ -143,5 +130,25 @@ public class PageController : MonoBehaviour
     {
         var pageOffset = pageIndex / 200.0f;
         return mPageHeightOffset + (pageOffset * (isMovingToLeftSide ? 1 : -1));
+    }
+
+    public void OnFolderEnter()
+    {
+        SetHotspotIfNotAbsent(mCurrentPage, true);
+
+        if (mCurrentPage > 0)
+        {
+            SetHotspotIfNotAbsent(mCurrentPage - 1, true);
+        }
+    }
+
+    public void OnFolderExit()
+    {
+        SetHotspotIfNotAbsent(mCurrentPage, false);
+
+        if (mCurrentPage > 0)
+        {
+            SetHotspotIfNotAbsent(mCurrentPage - 1, false);
+        }
     }
 }
