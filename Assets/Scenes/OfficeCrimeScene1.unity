@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1016,6 +1016,98 @@ MonoBehaviour:
   animationEngine: 3
   customClassName: 
   animEngine: {fileID: 1068537883}
+--- !u!1 &108102530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108102531}
+  - component: {fileID: 108102532}
+  m_Layer: 0
+  m_Name: Spot Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &108102531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108102530}
+  m_LocalRotation: {x: 0.1547323, y: 0.68996954, z: -0.1547323, w: 0.68996954}
+  m_LocalPosition: {x: 1.887, y: 1.362, z: -2.343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1357473489}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 25.28, y: 90, z: 0}
+--- !u!108 &108102532
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108102530}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.6132076, g: 0.5939243, b: 0.49750802, a: 1}
+  m_Intensity: 6
+  m_Range: 1.8085369
+  m_SpotAngle: 65
+  m_InnerSpotAngle: 5.293186
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &118232777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1799,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -3422,18 +3514,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: He had the day before the murders off from work so he began drinking early
+  m_Text: The day before the murders he had a dayy off so he began drinking early
     with his friends. He returned back home at approximately 5 a.m. on the morning
     of the murders. Aguirre stated that he watched television and then got up to
     look for beer. There was no beer in his trailer so he walked next door. He attempted
-    to go inside, but Cheryl's body was blocking the door. He lifted Cheryl's body
-    on to his lap and tried to revive her. He realized she was dead so he put her
-    back on the floor where he found her. Aguirre then walked toward the living room
-    and found Carol dead as well. Aguirre noticed the murder weapon sitting on a
-    box near where Cheryl was lying. He stated that he feared the killer was still
-    inside the house; therefore, he picked up the knife and screamed, "Is anybody
-    here?" There was no reply. He then walked to Samantha's room. She was not there,
-    but her room had been ransacked.
+    to go inside, but Cheryl's body was blocking the door. He lifted her on to his
+    lap and tried to revive her. He realized she was dead so he put her back on the
+    floor. Aguirre then walked toward the living room and found Carol dead as well.
+    Aguirre noticed the murder weapon sitting on a box near where Cheryl was lying.
+    He stated that he feared the killer was still inside the house; therefore, he
+    picked up the knife and screamed, "Is anybody here?" There was no reply. He then
+    walked to Samantha's room. She was not there, but her room had been ransacked.
 --- !u!222 &341045303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3769,7 +3860,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -4626,7 +4717,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -6112,7 +6203,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -8024,7 +8115,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -11636,7 +11727,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -12245,7 +12336,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -12845,7 +12936,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -14669,7 +14760,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -14735,6 +14826,7 @@ Transform:
   m_Children:
   - {fileID: 1966623946}
   - {fileID: 1914208284}
+  - {fileID: 108102531}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15122,7 +15214,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -18263,9 +18355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The day of the murder
-
-'
+  m_Text: The day of the murder
 --- !u!222 &1734979408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19684,7 +19774,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -20809,7 +20899,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 7.4236555
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -22775,7 +22865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2196482878809764383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.315, y: -0.09977043, z: -1.371}
+  m_LocalPosition: {x: 2.6132, y: -0.09977043, z: -1.371}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 273512651592236618}
@@ -22865,7 +22955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337110233037400232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.223, y: -0.09977043, z: -1.371}
+  m_LocalPosition: {x: 2.5212, y: -0.09977043, z: -1.371}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4266622555686766631}
@@ -25042,7 +25132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3554717359765862074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2188, y: -0.2423, z: -0.8627}
+  m_LocalPosition: {x: 2.517, y: -0.2423, z: -0.8627}
   m_LocalScale: {x: 0.20866996, y: 0.22615407, z: 0.19834997}
   m_Children: []
   m_Father: {fileID: 545338506}
@@ -25447,7 +25537,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 3
-  m_Depth: 0
+  m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -25487,13 +25577,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4319401050073851559}
-  m_LocalRotation: {x: -0.061919555, y: 0, z: 0, w: 0.99808115}
-  m_LocalPosition: {x: 0, y: 1.12, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.337, z: 0.077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2142582883}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -7.1, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4319401050084053831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25981,7 +26071,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4882007000946597937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2188, y: -0.2423, z: -1.134}
+  m_LocalPosition: {x: 2.517, y: -0.2423, z: -1.134}
   m_LocalScale: {x: 0.20866996, y: 0.22615407, z: 0.19834997}
   m_Children: []
   m_Father: {fileID: 545338506}
@@ -27225,7 +27315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6561730056062539858}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.095, y: 0.955, z: 1.664}
+  m_LocalPosition: {x: 1.53, y: 1.083, z: 1.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2142582883}
@@ -27859,13 +27949,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7240259339228940018}
-  m_LocalRotation: {x: 0.0247405, y: -0.24716595, z: 0.0025593268, w: 0.96865386}
-  m_LocalPosition: {x: -0.383, y: 0.992, z: 3.233}
+  m_LocalRotation: {x: 0.024709623, y: -0.25865245, z: 0.002854614, w: 0.96565014}
+  m_LocalPosition: {x: -0.319, y: 0.983, z: 3.158}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2142582883}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 2.8200002, y: -28.639002, z: -0.41700003}
+  m_LocalEulerAnglesHint: {x: 2.8200002, y: -30, z: -0.41700003}
 --- !u!114 &7240259339236045586
 MonoBehaviour:
   m_ObjectHideFlags: 0
