@@ -23,7 +23,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 2
+  - resultAction: 0
     skipAction: 2
     skipActionActual: {fileID: -697300441103844957}
     linkedCutscene: {fileID: 0}
@@ -36,13 +36,13 @@ MonoBehaviour:
     x: 14
     y: 1288
     width: 300
-    height: 152
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   changeType: 1
   removeJournalPageMethod: 0
-  menuToChange: 
+  menuToChange: Exit Closeup Camera Crossfade
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -251,7 +251,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: OfficeScene
+  sceneName: OfficeCrimeScene1
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: MurderScene1 To Office scene
+  m_Name: CrimeScene1 To Office scene
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 541994746142657407}
@@ -282,6 +282,7 @@ MonoBehaviour:
   - {fileID: -5241935770923853736}
   - {fileID: 8850986181322771343}
   - {fileID: -8131372497879199213}
+  - {fileID: 4609371368439260764}
   isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
@@ -335,7 +336,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: OfficeScene
+  sceneName: OfficeCrimeScene1
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 1
@@ -344,43 +345,6 @@ MonoBehaviour:
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
   forceReload: 0
---- !u!114 &1766387813710593590
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings: []
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  timeToPause: 0
 --- !u!114 &3903965481031600429
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -424,6 +388,58 @@ MonoBehaviour:
   changeType: 1
   removeJournalPageMethod: 0
   menuToChange: Scene1OutsideBladePopup
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
+--- !u!114 &4609371368439260764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 2
+    skipActionActual: {fileID: -697300441103844957}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 306
+    y: 1439.999
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Exit Closeup Camera Switch
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1

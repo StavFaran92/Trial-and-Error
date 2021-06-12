@@ -168,7 +168,7 @@ MonoBehaviour:
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 1
+  isSkippable: 0
   localParameters: []
   parameterIDs: 
   setParameters: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: End Closeup
+  m_Name: End Closeup Camera Switch
   m_EditorClassIdentifier: 
   actions:
   - {fileID: -192967211199920743}
@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 2757807953920422498}
   - {fileID: -7270314892021335600}
   - {fileID: -7184218135845688246}
-  isSkippable: 1
+  isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
   useParameters: 1
@@ -343,7 +343,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   changeType: 4
   removeJournalPageMethod: 0
-  menuToChange: Exit Closeup
+  menuToChange: Exit Closeup Camera Switch
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
