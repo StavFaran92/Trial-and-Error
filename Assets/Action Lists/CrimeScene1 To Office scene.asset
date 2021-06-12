@@ -40,7 +40,7 @@ MonoBehaviour:
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  changeType: 1
+  changeType: 4
   removeJournalPageMethod: 0
   menuToChange: Exit Closeup Camera Crossfade
   menuToChangeParameterID: -1
@@ -437,7 +437,7 @@ MonoBehaviour:
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  changeType: 1
+  changeType: 4
   removeJournalPageMethod: 0
   menuToChange: Exit Closeup Camera Switch
   menuToChangeParameterID: -1

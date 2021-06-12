@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Back Button
-  slotSize: {x: 4.5146728, y: 2.6610644}
+  slotSize: {x: 4.994571, y: 3.2212884}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1147,10 +1147,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4.43
-    y: 4.43
-    width: 40
-    height: 19
+    x: 4.605
+    y: 4.605
+    width: 46
+    height: 23
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -5064,9 +5064,9 @@ MonoBehaviour:
   _isLocked: 1
   id: 15
   title: Exit Closeup Camera Switch
-  manualSize: {x: 5.5146728, y: 3.9019608}
+  manualSize: {x: 5.994571, y: 4.5112042}
   positionType: 1
-  manualPosition: {x: 861.57, y: 700.07}
+  manualPosition: {x: 893.39496, y: 697.89496}
   positionSmoothing: 0
   alignment: 8
   toggleKey: 
@@ -5135,13 +5135,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 44.43, y: 23.43}
+  biggestElementSize: {x: 50.605, y: 27.605}
   rect:
     serializedVersion: 2
-    x: 837.14
-    y: 686.14
-    width: 48.86
-    height: 27.86
+    x: 865.79
+    y: 681.79
+    width: 55.21
+    height: 32.21
   showInFilter: 1
 --- !u!114 &3316464431255757873
 MonoBehaviour:
