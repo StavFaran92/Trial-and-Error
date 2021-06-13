@@ -1058,8 +1058,8 @@ Light:
   m_Color: {r: 0.6132076, g: 0.5939243, b: 0.49750802, a: 1}
   m_Intensity: 6
   m_Range: 1.8085369
-  m_SpotAngle: 65
-  m_InnerSpotAngle: 5.293186
+  m_SpotAngle: 103
+  m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
     m_Type: 1
@@ -11715,7 +11715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1248270704
 Transform:
   m_ObjectHideFlags: 0
@@ -28592,7 +28592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &8711797393521425009
 MeshFilter:
   m_ObjectHideFlags: 0
