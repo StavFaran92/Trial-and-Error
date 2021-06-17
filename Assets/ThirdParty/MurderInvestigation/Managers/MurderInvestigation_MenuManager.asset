@@ -849,7 +849,7 @@ MonoBehaviour:
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c535d8f60af42714d85c789097f7fbed, type: 3}
   fontScaleFactor: 2
-  fontColor: {r: 0.7764706, g: 0.7764706, b: 0.7764706, a: 1}
+  fontColor: {r: 0.77647066, g: 0.77647066, b: 0.77647066, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
   isClickable: 1
@@ -866,10 +866,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 2.22
-    y: 61.910004
-    width: 71.04
-    height: 45.65
+    x: 5.895
+    y: 83.985
+    width: 188.64
+    height: 33.15
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2761,10 +2761,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 2.22
-    y: 50.090004
-    width: 27.6
-    height: 9.6
+    x: 5.895
+    y: 44.940002
+    width: 188.64
+    height: 33.15
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2912,6 +2912,76 @@ MonoBehaviour:
   parameterValue: 0
   doFade: 0
   switchMenuTitle: Pause
+  inventoryBoxTitle: 
+  shiftInventory: 0
+  shiftAmount: 1
+  onlyShowWhenEffective: 0
+  loopJournal: 0
+  inputAxis: 
+  simulateInput: 0
+  simulateValue: 1
+  clickTexture: {fileID: 0}
+  allowContinuousClick: 0
+  uiSelectableHideStyle: 0
+--- !u!114 &-1429778652773998472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64747f67d47cb4e04a88bea43b7c1cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  title: CreditsButton
+  slotSize: {x: 16, y: 5}
+  sizeType: 1
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 12800000, guid: c535d8f60af42714d85c789097f7fbed, type: 3}
+  fontScaleFactor: 2
+  fontColor: {r: 0.77647066, g: 0.77647066, b: 0.77647066, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 1
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 5.895
+    y: 123.03
+    width: 188.64
+    height: 33.15
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiButton: {fileID: 0}
+  uiPointerState: 0
+  label: Credits
+  hotspotLabel: 
+  hotspotLabelID: -1
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  buttonClickType: 3
+  actionList: {fileID: 0}
+  parameterID: -1
+  parameterValue: 0
+  doFade: 0
+  switchMenuTitle: 
   inventoryBoxTitle: 
   shiftInventory: 0
   shiftAmount: 1
@@ -4644,9 +4714,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 12
   title: Pause
-  manualSize: {x: 17, y: 17.267252}
+  manualSize: {x: 17, y: 30.334843}
   positionType: 0
-  manualPosition: {x: 222, y: 456.5}
+  manualPosition: {x: 589.5, y: 331.5}
   positionSmoothing: 0
   alignment: 4
   toggleKey: Menu
@@ -4665,6 +4735,7 @@ MonoBehaviour:
   - {fileID: 4698360787248223678}
   - {fileID: -1953442898799948687}
   - {fileID: -6640159601424100961}
+  - {fileID: -1429778652773998472}
   - {fileID: 3696566039944028007}
   transitionProgress: 0
   appearType: 3
@@ -4681,6 +4752,7 @@ MonoBehaviour:
   - {fileID: 4698360787248223678}
   - {fileID: -1953442898799948687}
   - {fileID: -6640159601424100961}
+  - {fileID: -1429778652773998472}
   - {fileID: 3696566039944028007}
   spacing: 0.5
   sizeType: 0
@@ -4721,13 +4793,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 73.26, y: 155.43001}
+  biggestElementSize: {x: 194.535, y: 195.225}
   rect:
     serializedVersion: 2
-    x: 184.26
-    y: 377.675
-    width: 75.48
-    height: 157.65001
+    x: 489.285
+    y: 230.94
+    width: 200.43001
+    height: 201.12001
   showInFilter: 1
 --- !u!114 &2451032035976833015
 MonoBehaviour:
@@ -5407,10 +5479,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 2.22
-    y: 109.78001
-    width: 71.04
-    height: 45.65
+    x: 5.895
+    y: 162.07501
+    width: 188.64
+    height: 33.15
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6324,10 +6396,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 2.22
-    y: 2.22
-    width: 71.04
-    height: 45.65
+    x: 5.895
+    y: 5.895
+    width: 188.64
+    height: 33.15
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
