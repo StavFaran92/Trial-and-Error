@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44220528, g: 0.4912204, b: 0.5711185, a: 1}
+  m_IndirectSpecularColor: {r: 0.44220558, g: 0.4912207, b: 0.57111937, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8668,7 +8668,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b724a195d9ecef40906b2e0defd26c6, type: 2}
+  - {fileID: 2100000, guid: 4974231ac4a67ca4e8b4e4536cdc66c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9481,7 +9481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!33 &2350552669310995724
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13760,7 +13760,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2697d3c3ad6b14ab38d23c32168d3751, type: 2}
+  - {fileID: 2100000, guid: 4974231ac4a67ca4e8b4e4536cdc66c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
