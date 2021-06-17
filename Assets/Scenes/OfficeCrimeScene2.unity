@@ -3756,7 +3756,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -4913,25 +4913,23 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0f2059ebb79909b46a4e7699da571b87, type: 3}
-    m_FontSize: 14
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 135
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coleman, who worked in a mine, said he left his home at 8:30 p.m., left
-    the Speedy Market at 9:05 p.m., went to the mine, finding that his shift had
-    been terminated, and arrived at 10:50 p.m. at the bathhouse in town where he
-    took a shower and changed his clothes before returning home. He says he was back
-    home at 11:05. He claims he has nothing to do with the incident and knows nothing
-    about it.
-
-'
+  m_Text: "20:00 Roger leaves his home.\n21:05 Roger leaves convenient store and
+    goes to work, where he finds out his shift was cancelled.\n22:00 Roger leaves
+    the mining site and meets his friend, they talk for 15-20 min.\n22:40 Roger arrives
+    at his friend\u2019s trailer to pick up a music tape.\n22:50 Roger arrives to
+    the bathhouse.\n23:05 Roger arrives home.\n\n23:05 Roger arrives home according
+    to his wife.\n\n23:30 Roger arrives home according to his grandmother."
 --- !u!222 &599192721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5994,8 +5992,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 74, y: 0}
-  m_SizeDelta: {x: 148, y: 0}
+  m_AnchoredPosition: {x: 184.5, y: 0}
+  m_SizeDelta: {x: 369, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735267555
 MonoBehaviour:
@@ -6016,7 +6014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5f6b64c6a8ba7774bad74e68afe96d75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a36ac33832643e4ea93661bd843af77, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7554,7 +7552,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932091744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.002}
+  m_LocalPosition: {x: 0, y: 0, z: -0.002000002}
   m_LocalScale: {x: 0.0024239998, y: 0.0024239998, z: 1}
   m_Children:
   - {fileID: 1960081724}
@@ -7565,7 +7563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0061003733, y: -0.064}
+  m_AnchoredPosition: {x: -0.0061003733, y: 0.020000674}
   m_SizeDelta: {x: 386.57117, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &932091746
@@ -8586,7 +8584,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -9570,7 +9568,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 191.28558, y: -20}
-  m_SizeDelta: {x: 148, y: 0}
+  m_SizeDelta: {x: 369, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1131917096
 MonoBehaviour:
@@ -9587,8 +9585,8 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 148
-  m_PreferredHeight: 100
+  m_PreferredWidth: -1
+  m_PreferredHeight: 200
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -10079,7 +10077,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -11903,7 +11901,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -12357,7 +12355,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -14151,8 +14149,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.04
-  m_fontSizeBase: 0.04
+  m_fontSize: 0.03
+  m_fontSizeBase: 0.03
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14227,7 +14225,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619900598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0019999964}
+  m_LocalPosition: {x: 0, y: 0, z: -0.002}
   m_LocalScale: {x: 0.050015196, y: 0.0500152, z: 0.05}
   m_Children: []
   m_Father: {fileID: 8676434140841565907}
@@ -14235,7 +14233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0029999763, y: -0.050000817}
+  m_AnchoredPosition: {x: -0.0029999763, y: 0.034}
   m_SizeDelta: {x: 18.37, y: 0.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619900600
@@ -16571,7 +16569,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -17598,7 +17596,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 15.67659
+  m_PreferredHeight: 18
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
