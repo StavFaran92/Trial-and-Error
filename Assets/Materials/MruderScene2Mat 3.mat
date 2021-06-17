@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MruderScene2Mat
+  m_Name: MruderScene2Mat 3
   m_Shader: {fileID: 4800000, guid: ca035891872022e4f80c952b3916e450, type: 3}
   m_ShaderKeywords: _EMISSIVE_SIMPLE _OUTLINE_POS
   m_LightmapFlags: 4
@@ -201,7 +201,7 @@ Material:
     - _Offset_X_Axis_BLD: -0.05
     - _Offset_Y_Axis_BLD: 0.09
     - _Offset_Z: -0.95712
-    - _Outline_Width: 3.98
+    - _Outline_Width: -4.4
     - _Parallax: 0.02
     - _RimLight: 0
     - _RimLight_FeatherOff: 0
@@ -240,16 +240,16 @@ Material:
     - _utsTechnique: 1
     - _utsVersion: 2.075
     m_Colors:
-    - _1st_ShadeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _2nd_ShadeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _1st_ShadeColor: {r: 0.5377358, g: 0.3706413, b: 0.17755428, a: 1}
+    - _2nd_ShadeColor: {r: 0.44705886, g: 0.25882354, b: 0.07058824, a: 1}
     - _AngelRing_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 0.9843138, g: 0.7411765, b: 0.37254903, a: 1}
-    - _Color: {r: 0.9843138, g: 0.7411765, b: 0.37254903, a: 1}
+    - _BaseColor: {r: 0.76470596, g: 0.49803925, b: 0.20784315, a: 1}
+    - _Color: {r: 0.76470596, g: 0.49803925, b: 0.20784315, a: 1}
     - _ColorShift: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
-    - _HighColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighColor: {r: 0.76470596, g: 0.49803925, b: 0.20784315, a: 1}
     - _MatCapColor: {r: 0, g: 0, b: 0, a: 1}
     - _Outline_Color: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
