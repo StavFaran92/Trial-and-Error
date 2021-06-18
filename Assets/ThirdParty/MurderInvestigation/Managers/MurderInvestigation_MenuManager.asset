@@ -2855,7 +2855,7 @@ MonoBehaviour:
   uiPositionType: 0
   _isLocked: 0
   id: 31
-  title: Scene2Room2PaperTowelPopupUI
+  title: Scene2Room2PaperTowelPopup
   manualSize: {x: 0, y: 0}
   positionType: 0
   manualPosition: {x: 0, y: 0}
