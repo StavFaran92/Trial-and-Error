@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 271.3, y: 155}
+  m_SizeDelta: {x: 271.3, y: 67.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6417296710951850335
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 240.7, y: 46.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2065992738861514117
 CanvasRenderer:
@@ -151,7 +151,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Brad McCoy noticed that the cofee table was moved and a cola bottle, Wanda
+    was drinking, fell.
 --- !u!1 &2065992738940433847
 GameObject:
   m_ObjectHideFlags: 0

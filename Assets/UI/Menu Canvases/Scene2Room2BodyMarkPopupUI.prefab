@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 271.3, y: 155}
+  m_SizeDelta: {x: 296.1, y: 192.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8740408214783811603
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 272.9, y: 169.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4389068856474815689
 CanvasRenderer:
@@ -151,7 +151,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "Wanda's body: \n\nUpon arrival of police, her body was still warm. Wanda
+    McCoy was lying on her back with her sweater and bra pushed up around her neck.
+    A large pool of blood surrounded Wanda McCoy's head, she had been stabbed twice
+    in the chest and the throat. The victim had soil on her hands, broken fingernails,
+    cuts on the hands, and a dark, dusty substance on her body that was identified
+    as soil. "
 --- !u!1 &4389068856822170875
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 271.3, y: 155}
+  m_SizeDelta: {x: 257.6, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4047848546960349532
 CanvasRenderer:
@@ -109,7 +109,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 228.53, y: 16.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9046017401305838982
 CanvasRenderer:
@@ -151,7 +151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: A pry mark, a sign of a forced entry.
 --- !u!1 &9046017401386368436
 GameObject:
   m_ObjectHideFlags: 0

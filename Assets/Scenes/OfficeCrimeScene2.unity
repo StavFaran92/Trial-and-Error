@@ -921,8 +921,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "19-year-old Wanda McCoy was attacked in, or just outside, her home on
-    March 10, 1981. She was then raped and murdered between 10 and 11pm. \n\nHe blood
-    type was O."
+    March 10, 1981. She was then raped and murdered between 10 and 11pm. \n\nThe
+    police did not find evidence of a forced entry or a fight.\n\nHe blood type was
+    O."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -8584,7 +8585,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 14.281883
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -10077,7 +10078,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 14.281883
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -11901,7 +11902,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 14.281883
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -12355,7 +12356,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 18
+  m_PreferredHeight: 14.281883
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -18178,7 +18179,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "He names Roger Keith Coleman, Wanda\u2019s brother-in-law, as a likely
-    suspect because of his access to the McCoy household.\n"
+    suspect because of his access to the McCoy household. Brad says his wife would
+    never opened a door to a stranger.\n"
 --- !u!222 &2083837033
 CanvasRenderer:
   m_ObjectHideFlags: 0
