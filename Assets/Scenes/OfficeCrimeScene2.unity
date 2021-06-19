@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -465,9 +465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'OTHER EVIDENCE:
-
-    Body'
+  m_text: "Slate Creek\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -4295,7 +4293,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    Body'
+    Paper towel'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
@@ -7148,7 +7146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a5b2815c0230cc498c1d5ea686e9bfd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b14ec1277245a44b90c109abf5a67b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8250,7 +8248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815391485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1429, y: 0.711, z: 3.117}
+  m_LocalPosition: {x: 0.1429, y: 0.71, z: 3.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 147353830}
@@ -10328,6 +10326,8 @@ MonoBehaviour:
   - {fileID: 1758143568}
   - {fileID: 469194156}
   - {fileID: 448577179}
+  - {fileID: 815391486}
+  - {fileID: 1317923350}
   initialPageIndexVarLabel: Crime 2 Initial Page Index
 --- !u!4 &1057547321
 Transform:
@@ -13220,7 +13220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317923349}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1429, y: 0.711, z: 3.117}
+  m_LocalPosition: {x: 0.1429, y: 0.709, z: 3.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 752653781}
@@ -15612,11 +15612,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Upon arrival of police, her body was still warm. Wanda McCoy was lying
-    on her back with her sweater and bra pushed up around her neck. A large pool
-    of blood surrounded Wanda McCoy''s head, she had been stabbed twice in the chest
-    and the throat. The victim had soil on her hands, broken fingernails, cuts on
-    the hands, and a dark, dusty substance on her body that was identified as soil. '
+  m_text: "Slate Creek, located 75 to 100 yards from the McCoy house, is as deep
+    as 10 to 12 inches.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -16862,7 +16859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a5b2815c0230cc498c1d5ea686e9bfd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55c44f9ce065f794cb46698b9ffecd45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22653,7 +22650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 55c44f9ce065f794cb46698b9ffecd45, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f23e8d29f700e8f4db6c7086ad371bf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
