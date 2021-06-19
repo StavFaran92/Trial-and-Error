@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MurderInvestigation_VariablesManager
   m_EditorClassIdentifier: 
   vars:
-  - label: Initial Page Index
+  - label: Crime 1 Initial Page Index
     id: 1
     type: 1
     val: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: IsKnifeEvidenceRevealed
+  - label: Crime 1 IsKnifeEvidenceRevealed
     id: 0
     type: 0
     val: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: IsFootprintEvidenceRevealed
+  - label: Crime 1 IsFootprintEvidenceRevealed
     id: 2
     type: 0
     val: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: IsBodyMarkRoom1EvidenceRevealed
+  - label: Crime 1 IsBodyMarkRoom1EvidenceRevealed
     id: 3
     type: 0
     val: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: IsBodyMarkRoom2EvidenceRevealed
+  - label: Crime 1 IsBodyMarkRoom2EvidenceRevealed
     id: 4
     type: 0
     val: 0
@@ -100,6 +100,101 @@ MonoBehaviour:
     popUps: []
     vector3Val: {x: 0, y: 0, z: 0}
     link: 3
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Crime 2 Initial Page Index
+    id: 5
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 3
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Crime 2 IsRiverEvidenceRevealed
+    id: 6
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Crime 2 IsPryMarkEvidenceRevealed
+    id: 7
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Crime 2 IsBodyMarkEvidenceRevealed
+    id: 8
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Crime 2 IsPaperTowelEvidenceRevealed
+    id: 9
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
     pmVar: 
     updateLinkOnStart: 0
     canTranslate: 1

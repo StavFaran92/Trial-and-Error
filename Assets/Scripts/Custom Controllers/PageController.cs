@@ -13,6 +13,7 @@ public class PageController : MonoBehaviour
     [SerializeField] private float pageTweenVerticalDuration = 0.3f;
     [SerializeField] private float pageTweenHorizontalDuration = 0.7f;
     [SerializeField] private Transform[] mPages;
+    [SerializeField] private string initialPageIndexVarLabel;
 
     private GVar initialPageOnStart;
     private int mCurrentPage = 0;
@@ -20,7 +21,7 @@ public class PageController : MonoBehaviour
 
     private void Start()
     {
-        initialPageOnStart = GlobalVariables.GetVariable("Initial Page Index");
+        initialPageOnStart = GlobalVariables.GetVariable(initialPageIndexVarLabel);
 
         SetupInitialPagesHeights();
         SetupInitialPage();

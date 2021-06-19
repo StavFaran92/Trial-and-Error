@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   evidenceTextHeadline: {fileID: 1967934599}
   unknownTextContent: {fileID: 957743258}
   evidenceTextContent: {fileID: 1414026275}
-  isEvidenceRevealedVarLabel: IsBodyMarkRoom1EvidenceRevealed
+  isEvidenceRevealedVarLabel: Crime 1 IsBodyMarkRoom1EvidenceRevealed
 --- !u!1 &183717928
 GameObject:
   m_ObjectHideFlags: 0
@@ -3655,7 +3655,7 @@ MonoBehaviour:
   evidenceTextHeadline: {fileID: 125299240}
   unknownTextContent: {fileID: 942311642}
   evidenceTextContent: {fileID: 1667250026}
-  isEvidenceRevealedVarLabel: IsBodyMarkRoom2EvidenceRevealed
+  isEvidenceRevealedVarLabel: Crime 1 IsBodyMarkRoom2EvidenceRevealed
 --- !u!1 &372734364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4403,7 +4403,7 @@ MonoBehaviour:
   evidenceTextHeadline: {fileID: 1999108643}
   unknownTextContent: {fileID: 1608203442}
   evidenceTextContent: {fileID: 664284301}
-  isEvidenceRevealedVarLabel: IsFootprintEvidenceRevealed
+  isEvidenceRevealedVarLabel: Crime 1 IsFootprintEvidenceRevealed
 --- !u!1 &450114887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,7 +4923,7 @@ MonoBehaviour:
   evidenceTextHeadline: {fileID: 1087955572}
   unknownTextContent: {fileID: 1813431888}
   evidenceTextContent: {fileID: 762237264}
-  isEvidenceRevealedVarLabel: IsKnifeEvidenceRevealed
+  isEvidenceRevealedVarLabel: Crime 1 IsKnifeEvidenceRevealed
 --- !u!1 &484401847
 GameObject:
   m_ObjectHideFlags: 0
@@ -11189,6 +11189,7 @@ MonoBehaviour:
   - {fileID: 448577179}
   - {fileID: 183509111}
   - {fileID: 347080924}
+  initialPageIndexVarLabel: Crime 1 Initial Page Index
 --- !u!4 &1057547321
 Transform:
   m_ObjectHideFlags: 0
