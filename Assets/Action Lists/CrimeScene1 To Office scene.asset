@@ -253,7 +253,7 @@ MonoBehaviour:
   sceneNumberParameterID: -1
   sceneName: OfficeCrimeScene1
   sceneNameParameterID: -1
-  assignScreenOverlay: 0
+  assignScreenOverlay: 1
   onlyPreload: 0
   relativePosition: 0
   relativeMarker: {fileID: 0}
