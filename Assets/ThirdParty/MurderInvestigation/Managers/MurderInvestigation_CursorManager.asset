@@ -17,7 +17,6 @@ MonoBehaviour:
   allowMainCursor: 1
   lockSystemCursor: 1
   keepCursorWithinScreen: 1
-  confineSystemCursor: 0
   allowWalkCursor: 0
   addWalkPrefix: 0
   walkPrefix:
@@ -161,4 +160,4 @@ MonoBehaviour:
   lookUseCursorAction: 0
   lookCursor_ID: 2
   hideCursorWhenDraggingMoveables: 1
-  forceCursorInEditor: 1
+  forceCursorInEditor: 0

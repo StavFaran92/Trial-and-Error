@@ -2,6 +2,7 @@
 using DG.Tweening;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(HorizontalSwipeGestureRecognizer))]
 public class PageController : MonoBehaviour
 {
@@ -17,10 +18,12 @@ public class PageController : MonoBehaviour
     private GVar initialPageOnStart;
     private int mCurrentPage = 0;
     private bool isPageSwappingEnabled = true;
+    private AudioSource pageSwapSFX;
 
     private void Start()
     {
         initialPageOnStart = GlobalVariables.GetVariable(initialPageIndexVarLabel);
+        pageSwapSFX = GetComponent<AudioSource>();
 
         SetupInitialPagesHeights();
         SetupInitialPage();
@@ -67,6 +70,7 @@ public class PageController : MonoBehaviour
         {
             SwipePageAnimation(mCurrentPage, true);
             mCurrentPage++;
+            pageSwapSFX.Play();
         }
 
         SetPagesHotspot();
@@ -80,6 +84,7 @@ public class PageController : MonoBehaviour
         {
             mCurrentPage--;
             SwipePageAnimation(mCurrentPage, false);
+            pageSwapSFX.Play();
         }
 
         SetPagesHotspot();
