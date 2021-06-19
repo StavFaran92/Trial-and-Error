@@ -102,7 +102,7 @@ MonoBehaviour:
   directMovementPerspective: 0
   destinationAccuracy: 0.8
   experimentalAccuracy: 0
-  unityUIClicksAlwaysBlocks: 0
+  unityUIClicksAlwaysBlocks: 1
   pathfindUpdateFrequency: 0
   verticalReductionFactor: 0.7
   rotationsAffectedByVerticalReduction: 1
@@ -225,27 +225,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: a8ad60feb82344247bfe1847ce20657e, type: 3}
     relativeVolume: 1
     overrideMixerGroup: {fileID: 0}
-  ambienceStorages:
-  - ID: 0
-    audioClip: {fileID: 8300000, guid: c91dc32431c24304aa39a0d393f840fc, type: 3}
-    relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
-  - ID: 1
-    audioClip: {fileID: 8300000, guid: 3a484736995256d479ee556a1f44f174, type: 3}
-    relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
-  - ID: 2
-    audioClip: {fileID: 8300000, guid: f9893237fa9849748a0f3e1f53328678, type: 3}
-    relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
-  - ID: 3
-    audioClip: {fileID: 8300000, guid: 8cd09aaf3d192164e9f74d47ea39d4d1, type: 3}
-    relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
-  - ID: 4
-    audioClip: {fileID: 8300000, guid: aaabbc7a5a326754c892b49cb1a21786, type: 3}
-    relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
+  ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
   restartAmbienceTrackWhenLoading: 0
