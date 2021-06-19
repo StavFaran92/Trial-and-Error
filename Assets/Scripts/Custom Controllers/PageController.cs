@@ -5,11 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(HorizontalSwipeGestureRecognizer))]
 public class PageController : MonoBehaviour
 {
-    public float mPageHeightOffset = 0.72f;
-
-    private const float PagePeakHeight = 0.8f;
     private const float PageSideOffset = 0.142f;
 
+    [SerializeField] private float pageHeightOffset = 0.76f;
+    [SerializeField] private float PagePeakHeight = 0.8f;
     [SerializeField] private float pageTweenVerticalDuration = 0.3f;
     [SerializeField] private float pageTweenHorizontalDuration = 0.7f;
     [SerializeField] private Transform[] mPages;
@@ -130,7 +129,7 @@ public class PageController : MonoBehaviour
     private float PageHeight(int pageIndex, bool isMovingToLeftSide)
     {
         var pageOffset = pageIndex / 200.0f;
-        return mPageHeightOffset + (pageOffset * (isMovingToLeftSide ? 1 : -1));
+        return pageHeightOffset + (pageOffset * (isMovingToLeftSide ? 1 : -1));
     }
 
     public void OnFolderEnter()
