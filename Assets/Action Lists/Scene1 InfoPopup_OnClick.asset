@@ -56,7 +56,7 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   checkType: 0
-  menuToCheck: InfoPopup
+  menuToCheck: Scene1InfoPopup
   menuToCheckParameterID: -1
   elementToCheck: 
   elementToCheckParameterID: -1
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: InfoPopup_InfoPopup_OnClick
+  m_Name: Scene1 InfoPopup_OnClick
   m_EditorClassIdentifier: 
   actions:
   - {fileID: -2091934135741041193}
@@ -128,7 +128,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   changeType: 1
   removeJournalPageMethod: 0
-  menuToChange: InfoPopup
+  menuToChange: Scene1InfoPopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
@@ -180,7 +180,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   changeType: 0
   removeJournalPageMethod: 0
-  menuToChange: InfoPopup
+  menuToChange: Scene1InfoPopup
   menuToChangeParameterID: -1
   elementToChange: 
   elementToChangeParameterID: -1
