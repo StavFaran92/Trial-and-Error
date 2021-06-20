@@ -5991,9 +5991,10 @@ MonoBehaviour:
   m_Text: "20:00 Roger leaves his home.\n21:05 Roger leaves convenient store and
     goes to work, where he finds out his shift was cancelled.\n22:00 Roger leaves
     the mining site and meets his friend, they talk for 15-20 min.\n22:40 Roger arrives
-    at his friend\u2019s trailer to pick up a music tape.\n22:50 Roger arrives to
-    the bathhouse.\n23:05 Roger arrives home.\n\n23:05 Roger arrives home according
-    to his wife.\n\n23:30 Roger arrives home according to his grandmother."
+    at his friend\u2019s trailer to pick up a music tape.\n22:50 Roger said he had
+    arrived to the bathhouse.\n23:05 Roger said he had arrived home.\n\n23:05 Roger
+    arrives home according to his wife.\n\n23:30 Roger arrives home according to
+    his grandmother."
 --- !u!222 &599192721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9334,8 +9335,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -0.002000002}
   m_LocalScale: {x: 0.0024239998, y: 0.0024239998, z: 1}
   m_Children:
-  - {fileID: 1960081724}
   - {fileID: 2025730007}
+  - {fileID: 1960081724}
   - {fileID: 460877190}
   m_Father: {fileID: 8676434140841565907}
   m_RootOrder: 3
@@ -11448,10 +11449,10 @@ MonoBehaviour:
   m_Text: "Born in 1958 in Georgia, Roger was abandoned by his parents at age 6 and
     he was adopted by his grandparents living in coal mining town of Grundy, Virginia.
     He never wanted to become one of the miners, was a good student and dreamed joining
-    army to have an ability to get to a college. But in 1977 he was convicted of
+    the army to have an ability to get to a college. In 1977 he was convicted of
     attempted rape of a woman. He spent 2 years in jail and couldn\u2019t apply to
-    army anymore, so he stayed in Grundy to work in a mine and got married to a 16-year-old
-    Patricia Thomston. \n"
+    the army, so he stayed in Grundy to work in a mine and got married to a 16-year-old.
+    \n"
 --- !u!222 &1113392350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13842,8 +13843,7 @@ MonoBehaviour:
     his home, he saw that the coffee table had been moved, there were \u201Cslight
     drips of blood on the floor,\u201D and the light and the television were on.
     Going to the back bedroom, where a light was on, he found his wife lying on her
-    back dead on the floor. He found no signs of forced entry into the house. He
-    didn\u2019t touch the body and called his father.\n"
+    back dead on the floor. He didn\u2019t touch the body and called his father.\n"
 --- !u!222 &1315125486
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15427,14 +15427,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "After being asked to give the clothes from that day, Coleman turned over
-    a plastic bag of clothing and a knife. In the bag was a pair of dirty blue jeans;
-    the bottom 10 to 12 inches of each pants leg were wet. The mine site was investigated
-    and there was no water there to get his blue jeans wet. Coleman then said when
-    he took a shower at the bathhouse, he probably laid his blue jeans down and water
-    from the shower got them wet. \r\nJeans were dirty with \u201Cblackish stains
-    on the upper legs in particular\u201D.\r\nThere was a bloodstain on a jean, with
-    the blood type O.\r"
+  m_text: "After being asked to give the clothes from that day, Coleman collaborated
+    with the investigation and turned over a pair of dirty blue jeans; the bottom
+    10 to 12 inches of each pants leg were wet. Jeans were dirty with \u201Cblackish
+    stains on the upper legs in particular\u201D.\r \n\nThere was a bloodstain on
+    the jeans, with the blood type O.\r\n\nThe mine site was investigated and there
+    was no water there to get his jeans wet. Coleman then said when he took a shower
+    at the bathhouse, he probably laid his blue jeans down and water from the shower
+    got them wet. \r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -15462,8 +15462,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.04
-  m_fontSizeBase: 0.04
+  m_fontSize: 0.038
+  m_fontSizeBase: 0.038
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15614,8 +15614,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The vaginal specimen taken from the victim's body he found that spermatozoa
-    had been deposited in her vagina by a secretor with Type B blood. It also showed
+  m_text: "The vaginal specimen taken from the victim's body he found that sperm
+    had been deposited in her vagina by a person with Type B blood. It also showed
     another person\u2019s semen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
@@ -17533,8 +17533,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A knife turned over by Coleman had blood on it but in quantity that did
-    not allow to run tests.
+  m_text: At the request of the police, Coleman brought his pocketknife which had
+    blood on it but in quantity that did not allow to run tests.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -18291,12 +18291,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "That morning Brad and Wanda stayed home. Wanda sewed and watched television.
     Brad read the newspaper and puttered around the house. Brad left the house at
-    about 2:15 p.m. to run some errands and go to work. McCoy testified that about
+    about 2:15 p.m. to run some errands and go to work. McCoy testified that at about
     9:00 p.m. he telephoned Wanda \u201Cto see if she was okay.\u201D McCoy said
-    he always telephoned his wife at this time, when he took a break from work, because
-    she was \"more or less afraid to stay by herself\" and was \"shy.\" She did not
-    indicate anyone was with her and McCoy believed she would have told him \"if
-    anyone was there or had been there that day.\"\n"
+    he always telephoned his wife at this time, because she was afraid to stay by
+    herself. She did not indicate anyone was with her and McCoy believed she would
+    have told him \"if anyone was there or had been there that day.\"\n"
 --- !u!222 &1753828888
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18995,12 +18994,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: "A jail-house informant, Coleman\u2019s cellmate.\r\n\nTestified that when
     he had been incarcerated in the same cell block with Coleman in the county jail,
-    Coleman had described for him the killing and rape. According to Matney, Coleman
+    Coleman had described to him the killing and rape. According to Matney, Coleman
     drew a diagram of the McCoy house and said he and another man were in the house
-    and after the victim\u2019s husband called her about 9:00 p.m., Coleman\u2019s
+    and after the victim\u2019s husband called her at about 9:00 p.m., Coleman\u2019s
     companion cut her and she began to scream.\r\n\nMatney says the two men took
-    the victim to the bedroom and both raped her. The knife \u201Cwas supposed\u201D
-    to have been hidden under Black Watch Bridge.\r             Coleman also menitoned
+    the victim to the bedroom and both raped her. The knife was supposed to be hidden 
+    under Black Watch Bridge,        but it was never found.\r \nColeman also menitoned
     a napkin at the crime scene - this information was never published before.\n\r\nThis
     witness got his sentence shortened after Coleman was convicted.\r"
   m_isRightToLeft: 0
@@ -19715,7 +19714,7 @@ GameObject:
   - component: {fileID: 1960081726}
   - component: {fileID: 1960081725}
   m_Layer: 5
-  m_Name: Item 0
+  m_Name: Item 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19729,13 +19728,13 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960081723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 589905823}
   - {fileID: 1113392348}
   m_Father: {fileID: 932091745}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20819,7 +20818,7 @@ GameObject:
   - component: {fileID: 2025730009}
   - component: {fileID: 2025730008}
   m_Layer: 5
-  m_Name: Item 1
+  m_Name: Item 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20839,7 +20838,7 @@ RectTransform:
   - {fileID: 1139273156}
   - {fileID: 1669264532}
   m_Father: {fileID: 932091745}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -21569,7 +21568,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "He names Roger Keith Coleman, Wanda\u2019s brother-in-law, as a likely
     suspect because of his access to the McCoy household. Brad says his wife would
-    never opened a door to a stranger.\n"
+    never have opened a door to a stranger.\n"
 --- !u!222 &2083837033
 CanvasRenderer:
   m_ObjectHideFlags: 0

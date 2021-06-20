@@ -151,8 +151,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brad McCoy noticed that the cofee table was moved and a cola bottle, Wanda
-    was drinking, fell.
+  m_Text: Brad McCoy noticed that the cofee table had been moved and a Cola that
+    Wanda had been drinking, fell.
 --- !u!1 &2065992738940433847
 GameObject:
   m_ObjectHideFlags: 0
