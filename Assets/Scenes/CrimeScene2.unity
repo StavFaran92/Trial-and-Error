@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44220558, g: 0.4912207, b: 0.57111937, a: 1}
+  m_IndirectSpecularColor: {r: 0.44220528, g: 0.4912204, b: 0.5711185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2336,8 +2336,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 30
+    y: 30
     width: 300
     height: 60
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2551,6 +2551,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &566339913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 1
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!114 &573148814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2742,6 +2793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1107565508}
   - {fileID: 2026764644}
   - {fileID: 1152862067}
   - {fileID: 370439589}
@@ -2958,8 +3010,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 30
+    y: 30
     width: 300
     height: 60
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8733,7 +8785,7 @@ MonoBehaviour:
   isDisplayed: 1
   showComment: 0
   comment: 
-  willWait: 0
+  willWait: 1
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
@@ -8750,8 +8802,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 30
+    y: 30
     width: 300
     height: 60
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9208,6 +9260,57 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 758700735}
   trackID: 7
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
+--- !u!114 &1107565508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 1
   trackIDParameterID: -1
   fadeTime: 0
   fadeTimeParameterID: -1
@@ -10028,6 +10131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 2128182505}
   - {fileID: 511610197}
   - {fileID: 573148814}
   isSkippable: 1
@@ -10121,6 +10225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 566339913}
   - {fileID: 923863148}
   - {fileID: 533596877}
   isSkippable: 1
@@ -10441,6 +10546,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1478858989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 1
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!1 &1500788131
 GameObject:
   m_ObjectHideFlags: 0
@@ -11486,6 +11642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1478858989}
   - {fileID: 745405892}
   - {fileID: 77100985}
   - {fileID: 1980757686}
@@ -11779,8 +11936,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 30
+    y: 30
     width: 300
     height: 60
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11912,6 +12069,57 @@ Transform:
   m_Father: {fileID: 2102797097}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128182505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 1
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!4 &128012793492795305
 Transform:
   m_ObjectHideFlags: 0

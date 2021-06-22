@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
-  animEngine: {fileID: 944045570}
+  animEngine: {fileID: 677706104}
 --- !u!1 &108102530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,20 +2704,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230067146}
   m_CullTransparentMesh: 0
---- !u!114 &243838210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &257075690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,7 +3089,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
-  animEngine: {fileID: 243838210}
+  animEngine: {fileID: 1271518425}
 --- !u!1 &291166945
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,6 +7112,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &677706104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &681808209
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,20 +7501,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711882653}
   m_CullTransparentMesh: 0
---- !u!114 &726285996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &735267553
 GameObject:
   m_ObjectHideFlags: 0
@@ -9864,20 +9850,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942311642}
   m_CullTransparentMesh: 0
---- !u!114 &944045570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &945929529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9949,7 +9921,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
-  animEngine: {fileID: 726285996}
+  animEngine: {fileID: 1539106705}
 --- !u!1 &946826203
 GameObject:
   m_ObjectHideFlags: 0
@@ -14064,7 +14036,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
-  animEngine: {fileID: 1942909214}
+  animEngine: {fileID: 2113286271}
 --- !u!1 &1270718880
 GameObject:
   m_ObjectHideFlags: 0
@@ -14164,6 +14136,20 @@ Canvas:
   m_SortingLayerID: 1533703797
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!114 &1271518425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1274632721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16807,6 +16793,20 @@ MonoBehaviour:
   willWaitComplete: 0
   musicAction: 0
   loopingOverlapTime: 0
+--- !u!114 &1539106705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1544707360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20433,7 +20433,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933457888}
   m_CullTransparentMesh: 0
---- !u!114 &1942909214
+--- !u!114 &1941808796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20442,11 +20442,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 1
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!1 &1960081723
 GameObject:
   m_ObjectHideFlags: 0
@@ -22393,6 +22430,20 @@ MonoBehaviour:
   newRelativeVolumeParameterID: -1
   changeTime: 0
   changeTimeParameterID: -1
+--- !u!114 &2113286271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &2119490557
 GameObject:
   m_ObjectHideFlags: 0
@@ -25782,6 +25833,7 @@ MonoBehaviour:
   actions:
   - {fileID: 1181842089}
   - {fileID: 1472670007}
+  - {fileID: 1941808796}
   - {fileID: 1285809392}
   - {fileID: 1704820640}
   - {fileID: 276284235}
