@@ -3581,7 +3581,7 @@ MonoBehaviour:
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c535d8f60af42714d85c789097f7fbed, type: 3}
   fontScaleFactor: 2
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontColor: {r: 0.77254903, g: 0.77254903, b: 0.77254903, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
   isClickable: 1
