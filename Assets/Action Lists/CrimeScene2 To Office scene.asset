@@ -179,9 +179,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: 1
-    skipActionActual: {fileID: -5930126638645424491}
+  - resultAction: 2
+    skipAction: 11
+    skipActionActual: {fileID: 3782386557724265470}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -192,7 +192,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 233
+    height: 253
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -387,6 +387,7 @@ MonoBehaviour:
   - {fileID: -8131372497879199213}
   - {fileID: 4609371368439260764}
   - {fileID: -697300441103844957}
+  - {fileID: 3782386557724265470}
   isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
@@ -430,8 +431,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 277
+    x: 26
+    y: 320
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -449,7 +450,7 @@ MonoBehaviour:
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
   forceReload: 0
---- !u!114 &1741067123160824988
+--- !u!114 &3782386557724265470
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,23 +459,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b61c36e54c4745609facf37c5cf262e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
+  id: 0
   isDisplayed: 1
   showComment: 0
   comment: 
-  willWait: 0
+  willWait: 1
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
+  - resultAction: 2
     skipAction: 1
-    skipActionActual: {fileID: -5930126638645424491}
+    skipActionActual: {fileID: 541994746142657407}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -482,15 +483,20 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 435
+    y: 258
     width: 300
-    height: 60
+    height: 200
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
+  constantID: 6834
   parameterID: -1
-  timeToPause: 0
+  soundObject: {fileID: 0}
+  newRelativeVolume: 0
+  newRelativeVolumeParameterID: -1
+  changeTime: 1
+  changeTimeParameterID: -1
 --- !u!114 &3903965481031600429
 MonoBehaviour:
   m_ObjectHideFlags: 1
