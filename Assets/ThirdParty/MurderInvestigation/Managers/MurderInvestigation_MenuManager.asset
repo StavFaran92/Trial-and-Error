@@ -83,9 +83,9 @@ MonoBehaviour:
   _isLocked: 1
   id: 25
   title: Exit Closeup Camera Crossfade
-  manualSize: {x: 6.0042405, y: 6.152338}
-  positionType: 1
-  manualPosition: {x: 1143.605, y: 642.60504}
+  manualSize: {x: 7.6, y: 7.6}
+  positionType: 2
+  manualPosition: {x: 95.5, y: 95}
   positionSmoothing: 0
   alignment: 8
   toggleKey: 
@@ -116,7 +116,7 @@ MonoBehaviour:
   elements:
   - {fileID: 4332361028915094039}
   spacing: 0.5
-  sizeType: 0
+  sizeType: 1
   autoSizeEveryFrame: 0
   orientation: 1
   transitionType: 4
@@ -157,10 +157,10 @@ MonoBehaviour:
   biggestElementSize: {x: 64.895, y: 34.895}
   rect:
     serializedVersion: 2
-    x: 1108.21
-    y: 622.21
-    width: 70.78999
-    height: 40.79
+    x: 574.042
+    y: 321.024
+    width: 47.576
+    height: 26.751999
   showInFilter: 1
 --- !u!114 &-8541096454936495572
 MonoBehaviour:
@@ -7054,8 +7054,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Back Button
-  slotSize: {x: 5.004241, y: 4.3740573}
-  sizeType: 0
+  slotSize: {x: 7.04, y: 6.4}
+  sizeType: 1
   positionType: 0
   slotSpacing: 0
   lineID: -1
@@ -7068,9 +7068,9 @@ MonoBehaviour:
   isClickable: 1
   orientation: 1
   gridWidth: 3
-  backgroundTexture: {fileID: 0}
+  backgroundTexture: {fileID: 2800000, guid: 4bf6ed70c93fcf146b4b8fe76bbe23d9, type: 3}
   singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 0}
+  highlightTexture: {fileID: 2800000, guid: dd5f99f0c573d20468e912687076d2af, type: 3}
   hoverSound: {fileID: 0}
   clickSound: {fileID: 0}
   changeCursor: 0
@@ -7079,15 +7079,15 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 5.895
-    width: 59
-    height: 29
+    x: 3.13
+    y: 3.13
+    width: 44.0704
+    height: 22.528
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  label: Back
+  label: 
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -7107,7 +7107,7 @@ MonoBehaviour:
   inputAxis: 
   simulateInput: 0
   simulateValue: 1
-  clickTexture: {fileID: 0}
+  clickTexture: {fileID: 2800000, guid: 4bf6ed70c93fcf146b4b8fe76bbe23d9, type: 3}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
 --- !u!114 &4368713700516057297
