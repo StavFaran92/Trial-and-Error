@@ -3606,17 +3606,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aguirre claims that he returned back home at approximately 5:00 am on
-    the morning of the murders after drinks with his friends. He watched television
-    and then got up to look for beer. There was no beer in his trailer so he walked
-    next door. He said that he attempted to go inside, but Cheryl''s body was blocking
-    the door. He lifted her on to his lap and tried to revive her. He realized she
-    was dead so he put her back on the floor. Aguirre then walked toward the living
-    room and found Carol dead as well. Aguirre noticed the murder weapon sitting
-    on a box near where Cheryl was lying. He stated that he feared the killer was
-    still inside the house; therefore, he picked up the knife and screamed, "Is anybody
-    here?" There was no reply. He then walked to Samantha''s room. She was not there,
-    but her room had been ransacked.
+  m_Text: 'Aguirre claims that he was out with friends on the night of the murders,
+    and that he returned home at approximately 5:00 am. There was no beer in his
+    trailer so he walked next door. He says he tried to enter, but Cheryl''s body
+    was blocking the door. He lifted her on to his lap and tried to revive her, but
+    she was dead. Aguirre then found Carol''s body in the living room. He claims
+    he noticed the murder weapon next to Cheryl, and fearing that the killer might
+    still be around, he picked up the knife and screamed: "Is anybody here?". There
+    was no reply.
 
 '
 --- !u!222 &341045303
@@ -6192,13 +6189,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Patient name: \r\nSAMANTHA WILLIAMS\r\n\r\nDiagnosed with Intermittent
     Explosive Disorder, Bipolar Disorder, Borderline Personality Disorder and Psychosis
-    NOS. \n\nHad a lengthy history of conflict with her mother, Cheryl. On at least
-    five separate occasions, Cheryl had reported to the Sheriff\u2019s Office that
-    Samantha had run away from home and was missing. \n\nOn at least two other occasions,
-    in September 2001 and again in June 2000, the Sheriff\u2019s office was called
-    to the Williams\u2019 trailer by Cheryl because of Samantha\u2019s violent outbursts,
-    and she was involuntarily committed to a mental hospital by Cheryl as a result
-    of what Cheryl described as Samantha\u2019s \u201Cpsychotic behavior.\u201D\r\n"
+    NOS. \n\nHad a history of conflict with her mother, Cheryl.  On at least two
+    occasions, the Sheriff\u2019s office was called to the Williams\u2019 trailer
+    by Cheryl because of Samantha\u2019s violent outbursts, and she was involuntarily
+    committed to a mental hospital.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -7333,9 +7327,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A crime-scene analyst testified that 64 footprint impressions were consistent
-    with the tread pattern on Aguirre\u2019s shoes. One of them was found under victim\u2019s
-    body. The soles of his shoes contained Cheryl's blood."
+  m_text: "An expert testified that 64 footprint impressions were consistent with
+    the suspect\u2019s shoes. One of them was found under the victim\u2019s body.
+    The soles of his shoes contained Cheryl's blood."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -8145,13 +8139,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The knife was found between Aguirre's residence and the victims' residence.
-    After speaking with the head chef at the restaurant where Aguirre worked, law
-    enforcement officers determined that a ten-inch chef's knife was missing from
-    the restaurant. All of the stab wounds sustained by Cheryl and Carol were consistent
-    with being caused by this knife. A latent-print examiner testified that there
-    is a palm print on the murder weapon and it matched Aguirre\u2019s left palm-print.
-    \r"
+  m_text: "The knife was found between the suspect's residence and the victims' residence.
+    The chef at the restaurant where the suspect worked told the detectives that
+    a ten-inch knife was missing. The stab wounds sustained by both victims were
+    consistent with this knife. An expert testified that there's a palm print on
+    the murder weapon that matches suspect\u2019s left palm. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -8397,11 +8389,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Thereafter, Aguirre ran outside towards his residence and tossed the knife
+  m_Text: 'Thereafter, Aguirre ran outside towards his residence and tossed the knife
     into the grass. He then stripped off all his clothes, placed them in a plastic
-    bag, set the bag on top of his shed, and bathed. Aguirre initially planned to
-    burn the clothes. \r\n\nAguirre-Jarquin told a detective he did not call authorities
-    because he feared deportation.\n"
+    bag, hid it on top of his shed, and bathed. Aguirre said he initially planned
+    to burn the clothes, and that he didn''t call authorities because he feared deportation.
+
+'
 --- !u!222 &776146614
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16445,11 +16438,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cheryl had been stabbed 129 times. She had severe wounds to her lungs and
-    leg, one of which severed her femoral artery. She also had numerous defensive
-    wounds on her hands and feet that indicated an extremely violent struggle for
-    her life. The knife contained Cheryl's blood on the handle and Carol's blood
-    on the blade, indicating that Cheryl was killed first.
+  m_text: Cheryl had been stabbed 129 times. She also had numerous defensive wounds
+    on her hands and feet that indicated an extremely violent struggle for her life.
+    The knife contained Cheryl's blood on the handle and Carol's blood on the blade,
+    indicating that Cheryl was killed first.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -17161,9 +17153,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Law enforcement officers obtained a search warrant for the property at
-    117 Vagabond Street and retrieved the bag of clothes. Aguirre's underwear, socks,
-    T-shirt, and shorts contained both victims' blood.
+  m_text: Law enforcement officers obtained a search warrant for Aguirre's trailer
+    and retrieved the bag of clothes. His underwear, socks, T-shirt, and shorts contained
+    both victims' blood.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -18950,9 +18942,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Carol suffered two stab wounds. The fatal stab wound went directly into
-    her chest and severed her left ventricle, and the other stab wound was to her
-    back. '
+  m_text: 'Carol suffered two stab wounds. The fatal wound went directly into her
+    chest, and the other wound was to her back. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,

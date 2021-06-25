@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -970,8 +970,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Two hairs were taken from the victim\u2019s body, compared with Coleman\u2019s,
-    and found they were consistent with his hair type."
+  m_text: "Two hairs that were picked up from the victim\u2019s body, were found
+    to be consistent with Coleman's hair type by an expert who had examined them
+    under a microscope."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -1106,8 +1107,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "19-year-old Wanda McCoy's body was found at her home on March 10, 1981.
-    She was raped and murdered between 10 and 11 pm. \n\nThe police did not find
-    evidence of a forced entry or a fight.\n\nHe blood type was O."
+    She was raped and murdered between 10:00-11:00 pm. \n\nHer blood type was O.\n\nThe
+    police claimed they didn't find evidence of forced entry.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -6025,13 +6026,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "20:00 Roger leaves his home.\n21:05 Roger leaves convenient store and
+  m_Text: "20:00 Roger leaves his home.\n21:05 Roger visits convenience store and
     goes to work, where he finds out his shift was cancelled.\n22:00 Roger leaves
-    the mining site and meets his friend, they talk for 15-20 min.\n22:40 Roger arrives
-    at his friend\u2019s trailer to pick up a music tape.\n22:50 Roger said he had
-    arrived to the bathhouse.\n23:05 Roger said he had arrived home.\n\n23:05 Roger
-    arrives home according to his wife.\n\n23:30 Roger arrives home according to
-    his grandmother."
+    the mining site and meets a friend, they talk for 15-20 min.\n22:40 Roger claims
+    he arrived at his friend\u2019s trailer to pick up a music tape.\n22:50 Roger
+    says he arrived to the bathhouse.\n23:05 Roger and his wife claim he arrived
+    home. His grandmother remembered he had arrived half an hour later."
 --- !u!222 &599192721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6723,11 +6723,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Upon arrival of police, her body was still warm. Wanda McCoy was lying
-    on her back with her sweater and bra pushed up around her neck. A large pool
-    of blood surrounded Wanda McCoy''s head, she had been stabbed twice in the chest
-    and the throat. The victim had soil on her hands, broken fingernails, cuts on
-    the hands, and a dark, dusty substance on her body that was identified as soil. '
+  m_text: 'Upon arrival of police, the body was still warm. Wanda was lying on her
+    back in a pool of blood with her sweater and bra pushed up around her neck. She
+    had been stabbed twice in the chest and throat. The victim had broken fingernails,
+    cuts on the hands, and a dark, dusty substance on her body that was identified
+    as soil. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -7741,7 +7741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A pry mark on the door - a sign of the forced entry. '
+  m_text: 'A pry mark on the door - a sign of forced entry. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -11572,13 +11572,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Born in 1958 in Georgia, Roger was abandoned by his parents at age 6 and
-    he was adopted by his grandparents living in coal mining town of Grundy, Virginia.
-    He never wanted to become one of the miners, was a good student and dreamed joining
-    the army to have an ability to get to a college. In 1977 he was convicted of
-    attempted rape of a woman. He spent 2 years in jail and couldn\u2019t apply to
-    the army, so he stayed in Grundy to work in a mine and got married to a 16-year-old.
-    \n"
+  m_Text: "Roger was abandoned by his parents at age 6 and adopted by his grandparents
+    in a coal mining town. He never wanted to become a miner, was a good student
+    and dreamed of joining the army and go to college. In 1977 he was convicted of
+    attempted rape. He spent 2 years in jail and couldn\u2019t apply to the army,
+    so he started to work in a mine and got married to a 16-year-old. \n"
 --- !u!222 &1113392350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13965,11 +13963,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "At the end of his shift, McCoy arrived home about 11:15 p.m. Entering
-    his home, he saw that the coffee table had been moved, there were \u201Cslight
-    drips of blood on the floor,\u201D and the light and the television were on.
-    Going to the back bedroom, where a light was on, he found his wife lying on her
-    back dead on the floor. He didn\u2019t touch the body and called his father.\n"
+  m_Text: "At the end of his shift, McCoy got home at about 11:15 pm, and saw that
+    the coffee table had been moved, there was blood on the floor and the light and
+    TV were on. He found his wife's body in the bedroom, lying on the floor. He didn\u2019t
+    touch the body and called his father.\n"
 --- !u!222 &1315125486
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15539,14 +15536,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "After being asked to give the clothes from that day, Coleman collaborated
-    with the investigation and turned over a pair of dirty blue jeans; the bottom
-    10 to 12 inches of each pants leg were wet. Jeans were dirty with \u201Cblackish
-    stains on the upper legs in particular\u201D.\r \n\nThere was a bloodstain on
-    the jeans, with the blood type O.\r\n\nThe mine site was investigated and there
-    was no water there to get his jeans wet. Coleman then said when he took a shower
-    at the bathhouse, he probably laid his blue jeans down and water from the shower
-    got them wet. \r\n\n"
+  m_text: "After being asked to hand the clothes from that day, Coleman cooperated
+    and turned over a pair of dirty blue jeans; the bottom 10 to 12 inches of each
+    pants leg were wet. Jeans had \u201Cblackish stains on the upper legs in particular\u201D.\r
+    \n\nThere was a bloodstain on the jeans, with the blood type O.\r\n\nThe mine
+    site was investigated and there was no water there to get his jeans wet. Coleman
+    said he must have gotten them wet in the bathhouse. \r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -15726,9 +15721,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The vaginal specimen taken from the victim's body he found that sperm
-    had been deposited in her vagina by a person with Type B blood. It also showed
-    another person\u2019s semen."
+  m_text: "The semen found in the victim's body had been deposited by a person with
+    Type B blood. There was also someone else\u2019s semen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -17646,7 +17640,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: At the request of the police, Coleman brought his pocketknife which had
-    blood on it but in quantity that did not allow to run tests.
+    blood on it but in a quantity that did not allow to run tests.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -18415,13 +18409,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "That morning Brad and Wanda stayed home. Wanda sewed and watched television.
-    Brad read the newspaper and puttered around the house. Brad left the house at
-    about 2:15 p.m. to run some errands and go to work. McCoy testified that at about
-    9:00 p.m. he telephoned Wanda \u201Cto see if she was okay.\u201D McCoy said
-    he always telephoned his wife at this time, because she was afraid to stay by
-    herself. She did not indicate anyone was with her and McCoy believed she would
-    have told him \"if anyone was there or had been there that day.\"\n"
+  m_Text: "That morning Brad and Wanda stayed home. Brad left the house at about
+    2:15 p.m. to run some errands and work. McCoy testified that at about 9:00 p.m.
+    he called Wanda \u201Cto see if she was okay\u201D, because she was always afraid
+    to stay alone. She didn't indicate anyone was with her and McCoy believed she
+    would have told him \"if anyone was there\".\n"
 --- !u!222 &1753828888
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19119,15 +19111,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A jail-house informant, Coleman\u2019s cellmate.\r\n\nTestified that when
-    he had been incarcerated in the same cell block with Coleman in the county jail,
-    Coleman had described to him the killing and rape. According to Matney, Coleman
-    drew a diagram of the McCoy house and said he and another man were in the house
-    and after the victim\u2019s husband called her at about 9:00 p.m., Coleman\u2019s
-    companion cut her and she began to scream.\r\n\nMatney says the two men took
-    the victim to the bedroom and both raped her. The knife was supposed to be hidden 
-    under Black Watch Bridge,        but it was never found.\r \nColeman also menitoned
-    a napkin at the crime scene - this information was never published before.\n\r\nThis
+  m_text: "A jail-house informant, Coleman\u2019s cellmate.\r\n\nTestified that while
+    he was sharing a cell with Coleman, the suspect had described to him the killing
+    and rape. According to Matney, Coleman drew a diagram of the McCoy house and
+    said he and another man were there, and after the victim\u2019s husband called
+    her at about 9:00 pm, Coleman\u2019s companion cut her and she screamed.\r\n\nMatney
+    says the two men took the victim to the bedroom and raped her. The knife was
+    supposed to be hidden under Black Watch Bridge, but it was never found.\r \nColeman
+    also menitoned a towel at the crime scene - information that was never published.\n\r\nThis
     witness got his sentence shortened after Coleman was convicted.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
@@ -21695,7 +21686,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "He names Roger Keith Coleman, Wanda\u2019s brother-in-law, as a likely
     suspect because of his access to the McCoy household. Brad says his wife would
-    never have opened a door to a stranger.\n"
+    never have opened the door to a stranger.\n"
 --- !u!222 &2083837033
 CanvasRenderer:
   m_ObjectHideFlags: 0
