@@ -967,7 +967,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 4.835
-    y: 85.805
+    y: 45.32
     width: 154.72
     height: 35.65
   relativePosition: {x: 0, y: 0}
@@ -3468,7 +3468,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 4.835
-    y: 45.32
+    y: 4.835
     width: 154.72
     height: 35.65
   relativePosition: {x: 0, y: 0}
@@ -3768,7 +3768,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 4.835
-    y: 126.29
+    y: 85.805
     width: 154.72
     height: 35.65
   relativePosition: {x: 0, y: 0}
@@ -5529,7 +5529,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 12
   title: MainMenu
-  manualSize: {x: 17.000002, y: 29.068727}
+  manualSize: {x: 17.000002, y: 23.390604}
   positionType: 0
   manualPosition: {x: 483.5, y: 356.5}
   positionSmoothing: 0
@@ -5547,7 +5547,6 @@ MonoBehaviour:
   fitWithinScreen: 1
   backgroundTexture: {fileID: 0}
   visibleElements:
-  - {fileID: 0}
   - {fileID: -1953442898799948687}
   - {fileID: -6640159601424100961}
   - {fileID: -1429778652773998472}
@@ -5607,13 +5606,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 159.55501, y: 202.42502}
+  biggestElementSize: {x: 159.55501, y: 161.94}
   rect:
     serializedVersion: 2
     x: 401.305
-    y: 252.87
+    y: 273.1125
     width: 164.39001
-    height: 207.26003
+    height: 166.77501
   showInFilter: 1
 --- !u!114 &2451032035976833015
 MonoBehaviour:
@@ -6393,7 +6392,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 4.835
-    y: 166.77501
+    y: 126.29
     width: 154.72
     height: 35.65
   relativePosition: {x: 0, y: 0}
