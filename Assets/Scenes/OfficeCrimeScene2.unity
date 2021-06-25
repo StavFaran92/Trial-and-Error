@@ -4184,11 +4184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Upon arrival of police, her body was still warm. Wanda McCoy was lying
-    on her back with her sweater and bra pushed up around her neck. A large pool
-    of blood surrounded Wanda McCoy''s head, she had been stabbed twice in the chest
-    and the throat. The victim had soil on her hands, broken fingernails, cuts on
-    the hands, and a dark, dusty substance on her body that was identified as soil. '
+  m_text: A towel was found next to the body.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab52637a881215d4b91ffd73c45ba57b, type: 2}
   m_sharedMaterial: {fileID: 4582337741966491130, guid: ab52637a881215d4b91ffd73c45ba57b,
@@ -4560,7 +4556,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'OTHER EVIDENCE:
 
-    Paper towel'
+    Towel'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1de38758cd64a424b84dacea851775ed, type: 2}
   m_sharedMaterial: {fileID: -6596423087344393913, guid: 1de38758cd64a424b84dacea851775ed,
