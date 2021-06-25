@@ -3606,7 +3606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aguirre claimes that he returned back home at approximately 5 a.m. on
+  m_Text: 'Aguirre claims that he returned back home at approximately 5:00 am on
     the morning of the murders after drinks with his friends. He watched television
     and then got up to look for beer. There was no beer in his trailer so he walked
     next door. He said that he attempted to go inside, but Cheryl''s body was blocking
@@ -4903,7 +4903,7 @@ GameObject:
   - component: {fileID: 460877192}
   - component: {fileID: 460877191}
   m_Layer: 5
-  m_Name: Item 3
+  m_Name: Item 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4923,7 +4923,7 @@ RectTransform:
   - {fileID: 995836138}
   - {fileID: 1131917095}
   m_Father: {fileID: 932091745}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6639,7 +6639,7 @@ GameObject:
   - component: {fileID: 618175348}
   - component: {fileID: 618175347}
   m_Layer: 5
-  m_Name: Item 4
+  m_Name: Item 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6659,7 +6659,7 @@ RectTransform:
   - {fileID: 1580870919}
   - {fileID: 1577619808}
   m_Father: {fileID: 932091745}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7802,12 +7802,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Clemente was born in Honduras in 1980 and came to the United States in
-    2003 to escape the violent drug gangs that threatened the lives of his friends
-    and family. Upon arriving in Sanford, Florida, Aguirre moved to a trailer with
-    two other roommates. He quickly gained employment and worked three jobs, one
-    of them is a dishwasher and prep cook. One of his duties is washing the knives.
-    He had never been arrested for anything in Honduras or the United States\r.\n"
+  m_Text: "Clemente immigrated from Honduras to the US in 2003 to escape the violent
+    drug gangs that threatened his family. Upon arriving in Florida, he moved to
+    a trailer with two roommates. He worked three jobs, one of them was a dishwasher
+    and prep cook. One of his duties was washing the knives. He didn't have a criminal
+    record\r.\n"
 --- !u!222 &703016234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10001,7 +10000,6 @@ RectTransform:
   m_LocalScale: {x: 0.0024239998, y: 0.0024239998, z: 1}
   m_Children:
   - {fileID: 1960081724}
-  - {fileID: 1238486120}
   - {fileID: 2025730007}
   - {fileID: 460877190}
   - {fileID: 618175346}
@@ -14115,148 +14113,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1234909191}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1238486119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1238486120}
-  - component: {fileID: 1238486124}
-  - component: {fileID: 1238486123}
-  - component: {fileID: 1238486122}
-  - component: {fileID: 1238486121}
-  m_Layer: 5
-  m_Name: Item 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1238486120
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238486119}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1971090193}
-  - {fileID: 2026963789}
-  m_Father: {fileID: 932091745}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1238486121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238486119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e1bcb49c408f2429a9f9ab9f26cf3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  toggleTransition: 0
-  graphic: {fileID: 0}
-  m_Group: {fileID: 932091746}
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_IsOn: 0
-  m_MinHeight: 18
---- !u!114 &1238486122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238486119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: 18
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &1238486123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238486119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 2
-    m_Right: 2
-    m_Top: 2
-    m_Bottom: 2
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
---- !u!222 &1238486124
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238486119}
-  m_CullTransparentMesh: 0
 --- !u!1 &1238920973
 GameObject:
   m_ObjectHideFlags: 0
@@ -15537,7 +15393,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Van Sandt said he arrived about 9 a.m. on June 17 to pick up Samantha\u2019s
+  m_Text: "Van Sandt said he arrived about 9:00 am on June 17 to pick up Samantha\u2019s
     work clothes. He tried walking into the trailer \u2014 which was almost always
     unlocked \u2014 but something inside was obstructing the door. He squeezed his
     way through and found Cheryl Williams dead, face-down in a pool of blood. He
@@ -17824,10 +17680,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Samantha testified that several months before the murders she awoke at
-    2 a.m., and Aguirre was standing over her bed. She screamed at him and forcefully
-    told him to leave. Samantha escorted Aguirre out the front door and locked the
-    door behind him. The next day she reiterated that he was not to enter their residence
-    at night without permission.
+    2:00 am, and Aguirre was standing over her bed. She screamed at him and forcefully
+    told him to leave. The next day she reiterated that he was not to enter their
+    residence at night without permission.
 
 '
 --- !u!222 &1577619810
@@ -20012,12 +19867,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "On the night of June 16, 2004, Mark Van Sandt went to 121 Vagabond Way
-    to visit Samantha. He arrived at the residence around 7:30 p.m. and stayed until
-    approximately 11:30 p.m. After an argument with Cheryl about strawberry daiquiris,
-    Samantha decided to leave with Mark and stay at his parents' house that night.
-    When Samantha and Mark left the residence at 121 Vagabond Way, both Cheryl and
-    Carol were inside and alive. \r\n"
+  m_Text: "On the night of June 16, 2004, Mark went to visit Samantha, who had lived
+    with her mother and grandmother - the victims. He stayed until approximately
+    11:30 p.m. After an argument with Cheryl about strawberry daiquiris, Samantha
+    decided to leave with Mark and stay at his parents' house that night. When they
+    left, both Cheryl and Carol were inside and alive. \r\n"
 --- !u!222 &1753828888
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21955,121 +21809,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967934599}
   m_CullTransparentMesh: 0
---- !u!1 &1971090192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1971090193}
-  - component: {fileID: 1971090197}
-  - component: {fileID: 1971090196}
-  - component: {fileID: 1971090195}
-  - component: {fileID: 1971090194}
-  m_Layer: 5
-  m_Name: Headline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1971090193
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971090192}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1238486120}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1971090194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971090192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ddb7efa159c43908bf3c3d5e1daa76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightedTextColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1971090195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971090192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: 18
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &1971090196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971090192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.11320752, g: 0.035313718, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c535d8f60af42714d85c789097f7fbed, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Background
-
-'
---- !u!222 &1971090197
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971090192}
-  m_CullTransparentMesh: 0
 --- !u!1 &1971653314
 GameObject:
   m_ObjectHideFlags: 0
@@ -22772,7 +22511,7 @@ GameObject:
   - component: {fileID: 2025730009}
   - component: {fileID: 2025730008}
   m_Layer: 5
-  m_Name: Item 2
+  m_Name: Item 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22792,7 +22531,7 @@ RectTransform:
   - {fileID: 1139273156}
   - {fileID: 1669264532}
   m_Father: {fileID: 932091745}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22899,89 +22638,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025730006}
-  m_CullTransparentMesh: 0
---- !u!1 &2026963788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2026963789}
-  - component: {fileID: 2026963791}
-  - component: {fileID: 2026963790}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2026963789
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026963788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1238486120}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &2026963790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026963788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 0f2059ebb79909b46a4e7699da571b87, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Diagnosed with Intermittent Explosive Disorder, Bipolar Disorder, Borderline
-    Personality Disorder and Psychosis NOS. Had a lengthy history of conflict with
-    her mother and she was involuntarily committed to a mental hospital by Cheryl
-    as a result of what Cheryl described as Samantha\u2019s \u201Cpsychotic behavior.\u201D\r\n\nOn
-    at least five separate occasions, Cheryl had reported to the Sheriff\u2019s Office
-    that Samantha had run away from home and was missing. \n"
---- !u!222 &2026963791
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026963788}
   m_CullTransparentMesh: 0
 --- !u!1 &2043161538
 GameObject:
