@@ -19,6 +19,7 @@ public class PageController : MonoBehaviour
     private int mCurrentPage = 0;
     private bool isPageSwappingEnabled = true;
     private AudioSource pageSwapSFX;
+    private HorizontalSwipeGestureRecognizer recognizer;
 
     private void Start()
     {
@@ -28,7 +29,7 @@ public class PageController : MonoBehaviour
         SetupInitialPagesHeights();
         SetupInitialPage();
 
-        var recognizer = GetComponent<HorizontalSwipeGestureRecognizer>();
+        recognizer = GetComponent<HorizontalSwipeGestureRecognizer>();
         recognizer.SwipeCallback = (direction) =>
         {
             if (isPageSwappingEnabled && direction == HorizontalSwipeGestureRecognizer.SwipeDirection.Right)
@@ -154,6 +155,19 @@ public class PageController : MonoBehaviour
         if (mCurrentPage > 0)
         {
             SetHotspotIfNotAbsent(mCurrentPage - 1, false);
+        }
+    }
+
+    private void Update()
+    {
+        if (isPageSwappingEnabled && recognizer.enabled && Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            SwapToNextPage();
+        }
+
+        if (isPageSwappingEnabled && recognizer.enabled && Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SwapToPreviousPage();
         }
     }
 }
