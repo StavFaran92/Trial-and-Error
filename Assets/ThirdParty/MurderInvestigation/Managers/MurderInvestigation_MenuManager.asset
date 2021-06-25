@@ -80,7 +80,7 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  _isLocked: 1
+  _isLocked: 0
   id: 25
   title: Exit Closeup Camera Crossfade
   manualSize: {x: 7.6, y: 7.6}
@@ -103,7 +103,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: 4332361028915094039}
   transitionProgress: 0
-  appearType: 7
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -6049,7 +6049,7 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  _isLocked: 1
+  _isLocked: 0
   id: 15
   title: Exit Closeup Camera Switch
   manualSize: {x: 7.6, y: 7.6}
@@ -6072,7 +6072,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: -4586727596832557639}
   transitionProgress: 0
-  appearType: 7
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
