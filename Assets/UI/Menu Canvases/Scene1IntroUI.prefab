@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8, y: 89}
-  m_SizeDelta: {x: 2.81, y: 1.82}
+  m_SizeDelta: {x: 2.81, y: 2.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4263678857666582003
 CanvasRenderer:
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 6033471517495757182}
   - component: {fileID: 6033471517495757183}
   m_Layer: 5
-  m_Name: IntroUI
+  m_Name: Scene1IntroUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
