@@ -15984,7 +15984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45375b69b778044d2aad23806033c742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightOutlineWidth: 20
+  highlightOutlineWidth: 0
   highlightOutlineColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3150141139373485586
 MonoBehaviour:
@@ -18845,7 +18845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionListSource: 0
   cutsceneOnStart: {fileID: 6967303792613737662}
-  cutsceneOnLoad: {fileID: 6967303792613737662}
+  cutsceneOnLoad: {fileID: 0}
   cutsceneOnVarChange: {fileID: 0}
   actionListAssetOnStart: {fileID: 0}
   actionListAssetOnLoad: {fileID: 0}
