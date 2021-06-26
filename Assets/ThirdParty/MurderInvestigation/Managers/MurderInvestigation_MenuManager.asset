@@ -627,10 +627,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 201.12001
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 207.26001
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiToggle: {fileID: 0}
@@ -2655,10 +2655,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 44.940002
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 45.32
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}
@@ -2718,10 +2718,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 240.16501
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 247.74501
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -3542,8 +3542,8 @@ MonoBehaviour:
   anchor: 4
   textEffects: 0
   outlineSize: 2
-  buttonClickType: 1
-  actionList: {fileID: 0}
+  buttonClickType: 3
+  actionList: {fileID: 11400000, guid: dff8609b13c744a6c8095d4376f24d17, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -4595,9 +4595,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 0
   title: Options
-  manualSize: {x: 37, y: 42.11312}
+  manualSize: {x: 36.999996, y: 40.424965}
   positionType: 0
-  manualPosition: {x: 589.5, y: 331.5}
+  manualPosition: {x: 483.5, y: 356.5}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -4678,13 +4678,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 430.335, y: 273.315}
+  biggestElementSize: {x: 352.955, y: 283.39502}
   rect:
     serializedVersion: 2
-    x: 371.385
-    y: 191.895
-    width: 436.22998
-    height: 279.21
+    x: 304.605
+    y: 212.385
+    width: 357.78998
+    height: 288.23
   showInFilter: 1
 --- !u!114 &778989044776793569
 MonoBehaviour:
@@ -5045,10 +5045,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 5.895
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 4.835
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -6276,8 +6276,8 @@ MonoBehaviour:
   anchor: 4
   textEffects: 0
   outlineSize: 2
-  buttonClickType: 1
-  actionList: {fileID: 0}
+  buttonClickType: 3
+  actionList: {fileID: 11400000, guid: d98c4f6f2b65a45c6a7c7ca796ab8d88, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -7388,10 +7388,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 83.985
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 85.805
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}
@@ -7990,10 +7990,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 123.03
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 126.29
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}
@@ -8216,10 +8216,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 5.895
-    y: 162.07501
-    width: 424.44
-    height: 33.15
+    x: 4.835
+    y: 166.77501
+    width: 348.12
+    height: 35.65
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -8817,7 +8817,7 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 69.835, y: 28.835}
+  biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
     x: 0
