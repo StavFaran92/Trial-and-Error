@@ -919,7 +919,7 @@ MonoBehaviour:
   - {fileID: 1010028462}
   - {fileID: 1515795013}
   - {fileID: 397817678}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   - {fileID: 2040863195}
   - {fileID: 1444717767}
   - {fileID: 1486396580}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -2851,7 +2851,7 @@ MonoBehaviour:
   - {fileID: 35812775}
   - {fileID: 1925467647}
   - {fileID: 706571859}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -3134,7 +3134,7 @@ MonoBehaviour:
   - {fileID: 1370583677}
   - {fileID: 195257586}
   - {fileID: 1646131076}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   - {fileID: 994739571}
   - {fileID: 1637353784}
   - {fileID: 799231135}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -3831,7 +3831,7 @@ MonoBehaviour:
   - {fileID: 595950700}
   - {fileID: 1132685975}
   - {fileID: 1593929571}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -14348,7 +14348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 1018880584}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -15266,7 +15266,7 @@ MonoBehaviour:
   - {fileID: 642571091}
   - {fileID: 1822414744}
   - {fileID: 976902321}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -16485,7 +16485,7 @@ MonoBehaviour:
   - {fileID: 1145740529}
   - {fileID: 1284742884}
   - {fileID: 1278534429}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -16603,7 +16603,7 @@ MonoBehaviour:
   - {fileID: 453146123}
   - {fileID: 1318084104}
   - {fileID: 1586632526}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -17254,7 +17254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 204151085}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -23362,7 +23362,7 @@ MonoBehaviour:
   - {fileID: 1148180068}
   - {fileID: 1691255242}
   - {fileID: 742487836}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -24140,7 +24140,7 @@ MonoBehaviour:
   - {fileID: 433314810}
   - {fileID: 1725880822}
   - {fileID: 265170185}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -30716,7 +30716,7 @@ MonoBehaviour:
   - {fileID: 235639660}
   - {fileID: 238652762}
   - {fileID: 914994406}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0

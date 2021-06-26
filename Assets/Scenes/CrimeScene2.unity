@@ -345,7 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 1110437787}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -3140,7 +3140,7 @@ MonoBehaviour:
   - {fileID: 329631097}
   - {fileID: 286484417}
   - {fileID: 1073269462}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -8664,7 +8664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 402696071}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -8723,7 +8723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 958764389}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -8799,7 +8799,7 @@ MonoBehaviour:
   - {fileID: 259919978}
   - {fileID: 1306161616}
   - {fileID: 625028231}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -9958,7 +9958,7 @@ MonoBehaviour:
   - {fileID: 170010111}
   - {fileID: 653613200}
   - {fileID: 1280429545}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -10228,7 +10228,7 @@ MonoBehaviour:
   - {fileID: 2043869900}
   - {fileID: 511610197}
   - {fileID: 573148814}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -10322,7 +10322,7 @@ MonoBehaviour:
   - {fileID: 125728302}
   - {fileID: 923863148}
   - {fileID: 533596877}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -10396,7 +10396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 338502865}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -10810,7 +10810,7 @@ MonoBehaviour:
   - {fileID: 1045331379}
   - {fileID: 549432798}
   - {fileID: 610919313}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -11664,7 +11664,7 @@ MonoBehaviour:
   - {fileID: 1677662926}
   - {fileID: 1116301950}
   - {fileID: 1868160482}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
@@ -11743,7 +11743,7 @@ MonoBehaviour:
   - {fileID: 77100985}
   - {fileID: 1980757686}
   - {fileID: 359754313}
-  isSkippable: 1
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
