@@ -3674,7 +3674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: MenuButton
-  slotSize: {x: 7.04, y: 6}
+  slotSize: {x: 5.632, y: 5}
   sizeType: 1
   positionType: 0
   slotSpacing: 0
@@ -3701,8 +3701,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 68.0768
-    height: 42.78
+    width: 41.84576
+    height: 20.9
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -4502,9 +4502,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 4
   title: InGame
-  manualSize: {x: 7.04, y: 6}
+  manualSize: {x: 5.632, y: 5}
   positionType: 2
-  manualPosition: {x: 4.4, y: 95.5}
+  manualPosition: {x: 3.8, y: 95.5}
   positionSmoothing: 0
   alignment: 6
   toggleKey: 
@@ -4576,10 +4576,10 @@ MonoBehaviour:
   biggestElementSize: {x: 65.756004, y: 39.107}
   rect:
     serializedVersion: 2
-    x: 8.509602
-    y: 659.52496
-    width: 68.0768
-    height: 42.78
+    x: 7.311119
+    y: 388.74
+    width: 41.84576
+    height: 20.9
   showInFilter: 1
 --- !u!114 &11400000
 MonoBehaviour:
